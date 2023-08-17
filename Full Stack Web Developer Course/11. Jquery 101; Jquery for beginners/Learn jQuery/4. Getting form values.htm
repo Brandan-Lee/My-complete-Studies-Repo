@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+</head>
+<body>
+    <input type="text" value="Hello world123">
+
+    <section>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam voluptatum velit tempore temporibus, iste iusto, deleniti quam autem tenetur obcaecati quod sint officia minus nostrum nesciunt perspiciatis. Alias, beatae fuga.
+    </section>
+    
+    <section id="html">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit similique <strong>sapiente</strong>, quia odio ullam recusandae iusto velit repellendus dolorem ratione voluptates nisi placeat minus fugiat inventore repellat consequuntur, laudantium quis!
+    </section>
+    
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("input").val("This is changed")
+            const text = $("section").text();
+            const html = $("#html").html();
+            console.log(text);
+            console.log(html);
+        });
+    </script>
+</body>
+</html>

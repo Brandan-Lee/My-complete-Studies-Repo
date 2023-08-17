@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS 201</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #container {
+            display: flex;
+            flex-wrap: wrap;
+        }   
+
+        #container div {
+            /* border: 1px solid red; */
+        }
+
+        .navigation {
+            flex-basis: 20%;
+            flex-grow: 0;
+            flex-shrink: 1;
+        }
+
+        .content {
+            flex-basis: 80%;
+            flex-grow: 1;
+            flex-shrink: 0;
+        }
+
+        .header {
+           flex-basis: 100%;
+           flex-grow: 1;
+           flex-shrink: 0;
+           background-color: #f5f5f5;
+           color: #000;
+           padding: 20px;
+           border-bottom: 2px solid black; 
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="header">
+            Header
+        </div>
+        <div class="navigation">Navigation</div>
+        <div class="content">
+            <h1>Hello world</h1>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor error quos quaerat ipsam fugiat veniam praesentium quidem aliquid, doloribus tempora, minus totam odio voluptate cumque. Dolores voluptatem consequatur expedita autem!</p>
+
+            <h3>Hello world again</h3>
+
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit, atque animi! Porro quasi voluptates nobis id enim, perferendis hic minima culpa atque dolorum. Commodi amet labore aliquam quo tempora voluptatum.</p>
+        </div>
+    </div>   
+</body>
+</html>

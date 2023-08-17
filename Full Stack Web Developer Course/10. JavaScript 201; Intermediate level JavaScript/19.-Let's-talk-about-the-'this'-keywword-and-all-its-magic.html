@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 201</title>
+</head>
+<body>
+    
+    <script>
+        "use strict";
+
+        // const person5 = {
+        //     'name': 'Brandan-Lee',
+        //     speak() {
+        //         console.log(`My name is ${this.name}`);
+        //     }
+        // }
+
+        // person5.speak();
+
+        function counter() {
+            if (this.total === undefined) {
+                this.total = 1;
+            } else {
+                this.total++;
+            }
+
+            console.log(`Running counter. Total is ${this.total}`);
+        }
+
+        counter();
+        counter();
+        counter();
+        counter();
+        counter();
+        counter();
+        counter();
+        counter();
+    </script>
+</body>
+</html>

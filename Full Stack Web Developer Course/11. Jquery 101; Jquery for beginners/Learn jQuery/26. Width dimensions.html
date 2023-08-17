@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button>Click me</button>
+    <div class="box"></div>
+    
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            const $box = $(".box");
+
+            $("button")
+                .on("click", function() {
+                   //width and height
+                   //outerWidth and outerHeight (outerwidth/height(true) gives the whole width of the object which includes margin and padding)
+                   //innerwidth and innerHeight works with padding
+                   //all equal 100
+                   //this works with the DOM
+                });
+        });
+    </script>
+</body>
+</html>

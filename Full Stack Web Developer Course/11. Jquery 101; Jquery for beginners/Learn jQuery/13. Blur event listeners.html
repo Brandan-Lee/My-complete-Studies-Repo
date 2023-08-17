@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <input type="text" value="">
+    
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("input")
+                .on("blur", function() {
+                    let websiteUrl = $(this).val();
+                    
+                    if (websiteUrl.substr(0,4) !== "http") {
+                        websiteUrl = `http://${websiteUrl}`;
+                    }
+                    
+                    $(this).val(websiteUrl);
+                });
+        });
+    </script>
+</body>
+</html>

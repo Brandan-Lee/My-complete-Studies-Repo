@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+
+        .width-100 {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <button class="remove-blue">Remove blue</button>
+    <button class="remove-width">Remove width</button>
+    <div class="box blue width-100"></div>
+    
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            const $box = $(".box");
+            const $removeBlue = $(".remove-blue");
+            const $removeWidth = $(".remove-width");
+            
+            $removeBlue
+                .on("click", function() {
+                    $box.removeClass("blue");
+                });
+            $removeWidth
+                .on("click", function() {
+                    $box.removeClass("width-100");
+                });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS 201</title>
+    <style>
+        .box {
+            height: 20px;
+            border: 1px solid blue;
+            color: white;
+        }    
+
+        .box:not(.dont-select-me) {
+            background-color: blue;
+        }
+
+        .box:hover {
+            background-color: gray;
+        }
+
+        .box:nth-child(6) {
+            background-color: yellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box dont-select-me"></div>
+        <div class="box"></div>
+        <div class="box">SELECT ME</div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>       
+</body>
+</html>

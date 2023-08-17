@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+    <style>
+        
+    </style>
+</head>
+<body>
+    <form>
+        <input type="text" name="name" placeholder="Your name">
+        <button type="submit">Submit this form</button>
+    </form>
+    
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // $("form")
+            //     .on("submit", function(event) {
+            //         event.preventDefault();
+            //         console.log("Form was not submitted");
+            //     });
+
+            $("button")
+                .on("click", function() {
+                    event.preventDefault();
+                    console.log("Button is rendered useless");
+                })
+        });
+    </script>
+</body>
+</html>

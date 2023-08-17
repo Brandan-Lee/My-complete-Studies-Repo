@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+</head>
+<body>
+    <div id="parent"> 
+        <strong>Bolded word here</strong>
+        <em>Italicized word in here</em>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum voluptas enim maiores provident aperiam architecto placeat eaque veritatis ut! Ipsam dolor expedita ea ad, vel suscipit qui debitis iure provident.
+        </p>
+    </div>
+    
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            const $parent = $("div#parent");
+            $parent.html("stuff in here and there are no child elements");
+        });
+    </script>
+</body>
+</html>

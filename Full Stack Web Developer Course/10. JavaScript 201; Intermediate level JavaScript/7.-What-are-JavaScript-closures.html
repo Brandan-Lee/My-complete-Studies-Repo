@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 201</title>
+</head>
+<body>
+    
+    <script>
+        let person1 = "Brandan-Lee J Sherbrooke";
+
+        function greeting() {
+            console.log(`Hello ${person1}`);
+            var person2 = "Kalob";
+        }
+
+        greeting();
+        console.log(person2, "Is the second person"); //this won't work as a JS closure can only happen before the function is declared and person2 is outside the scope of the function
+    </script>
+</body>
+</html>

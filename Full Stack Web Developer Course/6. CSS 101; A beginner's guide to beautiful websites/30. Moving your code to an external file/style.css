@@ -1,0 +1,15 @@
+body {
+    background-color: #f5f5f5;
+    background-image: url("https://images.unsplash.com/photo-1654812548511-172cbecd449f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw0M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+} 
+
+#box {
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: red;
+    text-align: center;
+    padding: 25px;
+}

@@ -1,0 +1,1 @@
+//ajax is lightweight... it receives and sends a little amount of data and is used for XMLHttpRequests

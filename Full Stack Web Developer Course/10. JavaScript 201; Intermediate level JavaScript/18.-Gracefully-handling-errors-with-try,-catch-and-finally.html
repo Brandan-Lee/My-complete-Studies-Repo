@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 201</title>
+</head>
+<body>
+    
+    <script>
+        "use strict";
+
+        const num = 10;
+
+        //This code will run into an error as you cannot reassign a constant variable and a number does not have a toUpperCase method
+        try {
+            num += 20;
+            num.toUpperCase();
+        } catch(error) {
+            console.warn("ERROR LOGGING:", error);
+        } finally {
+            console.log("The final number is", num);
+        }
+
+        //code in here should still execute properly
+    </script>
+</body>
+</html>

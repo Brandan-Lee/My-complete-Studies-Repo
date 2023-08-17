@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+</head>
+<body>
+    <div id="put-a-button-in-here"></div>
+
+    <input type="text">
+    
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            // $("button").click(function() {
+            //     console.log("I am clicked");
+            // })
+
+            $("button").on("click", function() {
+                console.log("This is clickable too");
+            })
+
+            // $(document).on("click", "button", function() {
+            //     console.log("33333333");
+            // })
+
+            const $parent = $("#put-a-button-in-here");
+            $parent.html("<button>Click me dynamic button</button>");
+        });
+    </script>
+</body>
+</html>

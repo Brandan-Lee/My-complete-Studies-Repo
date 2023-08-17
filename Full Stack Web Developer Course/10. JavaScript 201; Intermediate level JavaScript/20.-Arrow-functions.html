@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript 201</title>
+</head>
+<body>
+    
+    <script>
+        "use strict";
+
+        //Older ways to write functions... use this when you want to use the this keyword
+        function myName(name) {
+            //
+        }
+
+        const anonymousFunction = function(name) {
+            //
+        }
+
+        //Newer ways to write functions... more used when writing big applications and modern browsers
+        const arrowFunc1 = (name) => {
+            //Write this arrow function if you are going to have multiple lines of code
+            //
+            //
+        }
+        
+        const arrowFunc2 = (name) => console.log("Hello", name) //use this when writing one line of code with the arrow function
+
+        const myNewGreeting = (name) => console.log(`Welcome, ${name}`);
+        myNewGreeting("Brandan-Lee123123123");
+    </script>
+</body>
+</html>

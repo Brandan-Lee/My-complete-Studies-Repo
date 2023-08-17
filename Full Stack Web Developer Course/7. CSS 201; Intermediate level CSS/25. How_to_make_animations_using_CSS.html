@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS 201</title>
+    <style>
+        .box {
+            width: 300px;
+            height: 300px;
+            border: 10px solid black;
+            border-radius: 50%;
+            background-color: black;
+            position: absolute;
+            top: 0;
+            left: 0;
+            animation-name: slideMe;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+
+        /* @keyframes slideMe {
+            from {
+                top: 0;
+                left: 0;
+            }
+            to {
+                left: 100%;
+            }
+        } */
+
+        /* @keyframes slideMe {
+            0% {
+                top: 0;
+                left: 0;
+            }
+            50% {
+                background-color: blue;
+            }
+            100% {
+                left: 100%;
+                background-color: yellow;
+            }
+        } */
+
+        @keyframes slideMe {
+            /* top right  */
+            25% {
+                top: 0;
+                right: 0;
+                left: 76.5%;
+                background-color: blue;
+            }
+            /* right bottom */
+            50% {
+                bottom: 0;
+                right: 0;
+                top: 53%;
+                left: 76.5%;
+                background-color: yellow;
+            }
+            /* left bottom */
+            75% {
+                bottom: 0;
+                left: 0;
+                top: 53%;
+                right: 150%;
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+
+    </div>      
+</body>
+</html>

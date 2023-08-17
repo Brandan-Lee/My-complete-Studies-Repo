@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+    <style>
+        #box {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="click-me">Show element</button>
+    <div id="box"></div>
+    
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#click-me")
+                .on("click", function(e) {
+                    $("#box").show();
+                })
+        });
+    </script>
+</body>
+</html>

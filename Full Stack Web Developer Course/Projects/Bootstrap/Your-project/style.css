@@ -1,0 +1,102 @@
+*, ::after, ::before {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-size: 100% 100vh;
+}
+
+nav {
+    border: 1px solid red;
+}
+
+.navbar-nav li:hover>ul.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    margin-top: -8px;
+    left: 100%;
+}
+
+.navbar-brand {
+    padding-bottom: 3.2px;
+    padding-top: 0px;
+}
+
+.brand-logo {
+    padding-top: 0;
+}
+
+.custom-toggler.navbar-toggler {
+    border: 1px solid #754ffe;
+    color: #754ffe;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url(
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(117, 79, 254, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.collapse {
+    border: 1px solid green;
+}
+
+.dropdown > .link:focus + .dropdown-menu {
+    opacity: 1;
+}
+
+.dropdown-menu, .submenu {
+    border: none;
+}
+
+.nav-link:hover {
+    color: #754ffe;
+}
+
+.nav-link {
+    color: #18113c;
+    font-size: .875rem;
+    font-weight: 500;
+}
+
+.badge {
+    background-color: #754ffe;
+}
+
+.dropdown-text {
+    font-size: .75rem;
+    line-height: 1.4;
+    color: #A8A3B9;
+    margin-left: -2px;
+}
+
+.custom-dropdown-header {
+    color: #18113c;
+    text-transform: uppercase;
+}
+
+.admin-link {
+    color: #754ffe;
+    text-align: center;
+}
+
+:root {
+    --bs-primary: #754ffe;
+    --bs-secondary: #79758f;
+    --bs-success: #19cb98;
+    --bs-info: #29baf9;
+    --bs-warning: #ffaa46;
+    --bs-danger: #e53f3c;
+    --bs-light: #f5f4f8;
+    --bs-dark: #18113c;
+    --bs-white: #fff;
+}

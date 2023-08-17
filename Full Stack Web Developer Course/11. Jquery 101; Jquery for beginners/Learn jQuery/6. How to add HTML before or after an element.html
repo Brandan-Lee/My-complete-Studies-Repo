@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+</head>
+<body>
+    <div id="target">
+        Add html before and after this
+    </div>
+    
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("div#target")
+                .before("<h3>Hello world. This is a title #2</h3>")
+                .after("<p>This is a paragraph #2</p>");
+        });
+    </script>
+</body>
+</html>

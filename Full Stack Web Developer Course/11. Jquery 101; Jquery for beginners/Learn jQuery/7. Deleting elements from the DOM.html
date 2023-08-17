@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+</head>
+<body>
+    <div>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio porro ducimus, eius facilis illum voluptatum quas laborum necessitatibus cumque mollitia quis explicabo minima tenetur quasi cupiditate neque hic sed quaerat.
+        </p>
+        <p class="middle-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sapiente nihil ipsam id quia fugiat, ipsum dolor voluptates nostrum ratione aut odit vel corporis expedita quam tempora laudantium molestiae. Ipsam.
+        </p>
+        <p class="middle-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque deserunt, ullam culpa doloremque sunt iste expedita porro ex eveniet cumque magnam et, quis fugiat ut. Quo et voluptas consectetur nam!
+        </p>
+    </div>
+    
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("div p.middle-paragraph").remove();
+        });
+    </script>
+</body>
+</html>

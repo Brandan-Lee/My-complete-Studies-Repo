@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+
+        .blue {
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <!-- <button class="toggle-blue-class">Toggle Blue</button> -->
+    <input type="text">
+    <div class="box blue"></div>
+    
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            const $box = $(".box")
+
+            $("input")
+                .on("keyup", function() {
+                    const value = $(this).val();
+
+                    if (value === "Brandan") {
+                        $box.addClass("blue");
+                    } else {
+                        $box.removeClass("blue");
+                    }
+                    // $box.toggleClass("blue");
+                });
+        });
+    </script>
+</body>
+</html>

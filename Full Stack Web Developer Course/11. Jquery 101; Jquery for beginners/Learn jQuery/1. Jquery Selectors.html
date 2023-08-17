@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+</head>
+<body>
+    <!-- jquery Selectors -->
+    <h1>Our custom title 1</h1>
+    <h1>Our custom title 2</h1>
+    <button class="custom-class">This is a custom button</button>
+    <p class="custom-class">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore eum ipsam, optio maxime, error labore debitis ducimus incidunt repellat, distinctio magni. Eum magni animi excepturi modi quos dolorem possimus suscipit.
+    </p>
+    <p id="customId">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima saepe modi nemo quas, consequuntur fugit! Quae consectetur tempore, aliquid esse iusto, excepturi saepe, eveniet voluptatum quisquam unde pariatur vero ea?
+    </p>
+
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("h1, p").text("Changed via jQuery #2");
+            $("p.custom-class").text("Changed again #3");
+            $("#customId").text("Changed again #4");
+        });
+    </script>
+</body>
+</html>

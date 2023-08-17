@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery 101</title>
+    <style>
+        #box {
+            width: 200px;
+            height: 200px;
+            background-color: black;
+            margin: 50px auto;
+        }
+    </style>
+</head>
+<body>
+    <div id="box"></div>
+    
+    <!-- This is how you add jQuery to your website -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.0/dist/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#box")
+                .on("mouseenter", function() {
+                console.log("Your mouse is hovering over this box")
+                })
+                .on("mouseleave", function() {
+                    console.warn("You left the box area");
+                });
+        });
+    </script>
+</body>
+</html>
