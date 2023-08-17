@@ -10,7 +10,7 @@ Course: Oak Academy Projects
 Oak Academy Course Link: https://www.udemy.com/course/full-stack-web-development-with-c-oop-ms-sql-aspnet-mvc/
 
 Course: Full Stack Web Developer Projects
-  All Projects can be found under the projects folder in the folder
+  1. All Projects can be found under the projects folder in the folder
 
 Full Stack Web Developer Course Link: https://www.udemy.com/course/the-ultimate-fullstack-web-development-bootcamp/
 
