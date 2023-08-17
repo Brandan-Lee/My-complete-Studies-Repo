@@ -13,3 +13,5 @@ Course: Full Stack Web Developer Projects
   All Projects can be found under the projects folder in the folder
 
 Full Stack Web Developer Course Link: https://www.udemy.com/course/the-ultimate-fullstack-web-development-bootcamp/
+
+BloomTect Course Link: https://learnworlds.bloomtech.com/course/beginning-your-coding-journey-html
