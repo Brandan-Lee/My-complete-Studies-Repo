@@ -1,0 +1,88 @@
+course = 'mooc-programming-22'
+[exercises.part02-01_fix_syntax]
+id = 151773
+checksum = '35993f136ee871a5d119039b3a55267f'
+
+[exercises.part02-02_number_of_characters]
+id = 151785
+checksum = '41117cc6d9e434afa026d3fc269858b4'
+
+[exercises.part02-03_typecasting]
+id = 151792
+checksum = '453e4da027e3323adcc78d4b9eb6fc33'
+
+[exercises.part02-04_age_of_maturity]
+id = 151793
+checksum = '835f75d2c3e77bf0f835912f089f556b'
+
+[exercises.part02-05_greater_or_equal]
+id = 151787
+checksum = 'e0b05c908fa262b31d57f220f98c6168'
+
+[exercises.part02-06_elder]
+id = 151774
+checksum = 'f9fc203d9384cdb9dc854db74c99d982'
+
+[exercises.part02-07_alphabetically_last]
+id = 151788
+checksum = '9955b0779bf735bfd071d75df092a8cd'
+
+[exercises.part02-08_age_check]
+id = 151791
+checksum = '8508ab9507df611b8634281d9e67f65f'
+
+[exercises.part02-09_nephews]
+id = 151784
+checksum = '166ccdd14235c4916206d36f2cc228b5'
+
+[exercises.part02-10_grades_and_points]
+id = 151778
+checksum = '9862f79334a1dee85f1830dc2101bffb'
+
+[exercises.part02-11_fizzbuzz]
+id = 151780
+checksum = 'cc106c7099bd22ec5aa2232d04e5ec4d'
+
+[exercises.part02-12_leap_year]
+id = 151782
+checksum = '450107c221874daf275f67a0999db17d'
+
+[exercises.part02-13_alphabetically_in_the_middle]
+id = 151779
+checksum = 'ed01d78c69fb5fb634954c7447f7703b'
+
+[exercises.part02-14_gift_tax_calculator]
+id = 151772
+checksum = '7d60b2c6bf54ea1d785008ecba218281'
+
+[exercises.part02-15_shall_we_continue]
+id = 151781
+checksum = '424f6862dfe48996bc80635a7034d1a2'
+
+[exercises.part02-16_input_validation]
+id = 151777
+checksum = '5fb61df3aa0b880e13c5dd49d1db5235'
+
+[exercises.part02-17_countdown]
+id = 151775
+checksum = 'b33410e5bd1e316845dfcb1db7754e15'
+
+[exercises.part02-18_repeat_password]
+id = 151790
+checksum = '358fdafcf96d07c3ca1659b6f77eabb3'
+
+[exercises.part02-19_pin_and_number_of_attempts]
+id = 151776
+checksum = '55a150801fce9d24bd337b5363910414'
+
+[exercises.part02-20_next_leap_year]
+id = 151789
+checksum = 'a42794a687c203884cdda6979185cae9'
+
+[exercises.part02-21_story]
+id = 151786
+checksum = 'ebc55cebd01a1666515926ac442e03b7'
+
+[exercises.part02-22_working_with_numbers]
+id = 151783
+checksum = 'f25b73d20fcd421851c5213584acfec2'

@@ -1,0 +1,52 @@
+course = 'mooc-java-programming-ii'
+[exercises."part13-Part13_01.MyFirstApplication"]
+id = 87761
+checksum = '2d181f5f22621737f7d0b6807f775135'
+
+[exercises."part13-Part13_02.ButtonAndLabel"]
+id = 87762
+checksum = '3f181fb1e85c5bb7eac90ec1c1159e94'
+
+[exercises."part13-Part13_03.ButtonAndTextField"]
+id = 87763
+checksum = '290ea13709d850d71f65e1c8e29e844c'
+
+[exercises."part13-Part13_04.BorderPane"]
+id = 87764
+checksum = '7568b5cc64fde2c3222b60568f2835b6'
+
+[exercises."part13-Part13_05.TextStatistics"]
+id = 87765
+checksum = '1c667852a511a0324978885213753640'
+
+[exercises."part13-Part13_06.Notifier"]
+id = 87766
+checksum = 'd94fb2c7d615d306fe55a188a2f6dc86'
+
+[exercises."part13-Part13_07.TextStatisticsPart2"]
+id = 87767
+checksum = '339ae10d3e8fe001dc434043643ee9fb'
+
+[exercises."part13-Part13_08.UserTitle"]
+id = 87768
+checksum = '5723a7d3f2a923e0fcd8e935ca642a6b'
+
+[exercises."part13-Part13_09.MultipleViews"]
+id = 87769
+checksum = '72ad7faf0cb216a7b0726f0d0de20614'
+
+[exercises."part13-Part13_10.Greeter"]
+id = 87770
+checksum = 'a843e40b85a8cf0e9c0dce3d737799fd'
+
+[exercises."part13-Part13_11.Joke"]
+id = 87771
+checksum = 'a4e817a830e93726b143ffb1957dff96'
+
+[exercises."part13-Part13_12.VocabularyPractice"]
+id = 87772
+checksum = '6a34568cf89fde672c5b069a239fe518'
+
+[exercises."part13-Part13_13.TicTacToe"]
+id = 87773
+checksum = '3c5999488361e231113c8a058744a5a3'

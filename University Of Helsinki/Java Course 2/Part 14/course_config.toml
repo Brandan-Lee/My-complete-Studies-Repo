@@ -1,0 +1,40 @@
+course = 'mooc-java-programming-ii'
+[exercises."part14-Part14_01.Shanghai"]
+id = 87774
+checksum = 'd7e6aa20777ec1d075790e47a116c268'
+
+[exercises."part14-Part14_02.FinnishParties"]
+id = 87775
+checksum = 'f32f8bcf69fb29dea0eb8ec75e30e990'
+
+[exercises."part14-Part14_03.SavingsCalculator"]
+id = 87776
+checksum = 'a477421c224b736127a786f9a24feaf9'
+
+[exercises."part14-Part14_04.UnfairAdvertisement"]
+id = 87777
+checksum = '4904fd24129854477ca2e96d774cb318'
+
+[exercises."part14-Part14_05.CyclingStatistics"]
+id = 87778
+checksum = 'a53592ece5b99f8e7ae0bd2ae9bdf4c7'
+
+[exercises."part14-Part14_06.Smiley"]
+id = 87779
+checksum = '07a10f4cd1b1c8de45921a4bef2d77b6'
+
+[exercises."part14-Part14_07.Collage"]
+id = 87780
+checksum = 'f75c4126edc2fec4757073b589d10221'
+
+[exercises."part14-Part14_08.Hurray"]
+id = 87781
+checksum = 'f286bb26ebd82d86d9ba2d8fb30048ed'
+
+[exercises."part14-Part14_09.Asteroids"]
+id = 87782
+checksum = 'edab5920decb2753b1f65cdb6bbbf774'
+
+[exercises."part14-Part14_10.Database"]
+id = 87783
+checksum = 'd2ac3b918d44ad2db367077c8e147814'

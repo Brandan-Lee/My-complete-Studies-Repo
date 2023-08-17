@@ -1,0 +1,136 @@
+course = 'mooc-programming-22'
+[exercises.part03-01_print_numbers]
+id = 152027
+checksum = 'ef5908aa85bf63bd226ee4c8dcfe2adc'
+
+[exercises.part03-02_countdown]
+id = 152052
+checksum = '01b73d699c925771f4d6ed3cb9c1b389'
+
+[exercises.part03-03_numbers]
+id = 152038
+checksum = '3b12a822132a1a7579ae861f7a6f8afc'
+
+[exercises.part03-04_powers_of_two]
+id = 152039
+checksum = '8dd5d07ebdc5440a071cd080cc0f3cb0'
+
+[exercises.part03-05_powers_of_base_n]
+id = 152028
+checksum = '56bc4499356a06e748134e3b648de3fc'
+
+[exercises.part03-06_consecutive_sum_v1]
+id = 152044
+checksum = 'f15efc48bd1e0f7677dc2dfb211f5ef1'
+
+[exercises.part03-07_consecutive_sum_v2]
+id = 152032
+checksum = 'a806f9d07e3d5f750bb30994d2464461'
+
+[exercises.part03-08_string_multiplied]
+id = 152049
+checksum = '2ba51757c1b05591c92715fd70957f1e'
+
+[exercises.part03-09_longer_string]
+id = 152037
+checksum = 'c7695e4ae2a8f6130ae567712818d8f1'
+
+[exercises.part03-10_end_to_beginning]
+id = 152055
+checksum = '5dee0d67c50f90306a8a9496b17f6396'
+
+[exercises.part03-11_second_and_second_to_last]
+id = 152025
+checksum = '366fa5842777e90474e165c54b263c34'
+
+[exercises.part03-12_line_of_hashes]
+id = 152030
+checksum = '20df7a55b7db28d0cfa8943c39093403'
+
+[exercises.part03-13_rectangle_of_hashes]
+id = 152035
+checksum = '079c454b453faee45414e166515166a9'
+
+[exercises.part03-14_underlining]
+id = 152040
+checksum = '208dbca3206494876dbac41bbcf2358d'
+
+[exercises.part03-15_right_aligned]
+id = 152053
+checksum = 'bccf171089fbd5aee27081977a872caf'
+
+[exercises.part03-16_framed_word]
+id = 152046
+checksum = '692821b5efa80fd21d71692aac62c6ce'
+
+[exercises.part03-17_substrings_part_1]
+id = 152054
+checksum = '3a2b1f30fb570e0ca10ebff467ee2de9'
+
+[exercises.part03-18_substrings_part_2]
+id = 152041
+checksum = 'b33219ba0a2c40aa501e2bee2ac8781b'
+
+[exercises.part03-19_does_it_contain_vowels]
+id = 152029
+checksum = '2aeec28302ae6e08cf618a02917fe79b'
+
+[exercises.part03-20_find_first_substring]
+id = 152036
+checksum = '77c5a31e613c92bf79e17192d8448662'
+
+[exercises.part03-21_find_all_substrings]
+id = 152023
+checksum = 'a8695952d4aa57b56e3088236ebccfc4'
+
+[exercises.part03-22_second_occurrence]
+id = 152034
+checksum = '019839504f03b3affc45e1edafe586ac'
+
+[exercises.part03-23_multiplication]
+id = 152050
+checksum = 'bb53f21f38043144f456f904e94095f7'
+
+[exercises.part03-24_first_letters_of_words]
+id = 152045
+checksum = 'a1fe43ab182d00257fdeb573a77722e1'
+
+[exercises.part03-25_factorial]
+id = 152043
+checksum = '18c3e51694800c2463265ce4313c0af0'
+
+[exercises.part03-26_flip_the_pairs]
+id = 152026
+checksum = '92850b9885f7ef827cf08b9d2295a84f'
+
+[exercises.part03-27_taking_turns]
+id = 152033
+checksum = '7509fd1c150da6984132b1b20ea5364e'
+
+[exercises.part03-28_seven_brothers]
+id = 152047
+checksum = '4185db45ced7d9b39daac61d82370bdb'
+
+[exercises.part03-29_first_character]
+id = 152051
+checksum = '6fb75a3c20aa6ed5bd23ccd2cd8e4a09'
+
+[exercises.part03-30_mean]
+id = 152048
+checksum = '549f843474124bad3d69eae53b6d6a66'
+
+[exercises.part03-31_print_many_times]
+id = 152031
+checksum = '99761c8f9100da65f03495a5b78349c2'
+
+[exercises.part03-32_square_of_hashes]
+id = 152024
+checksum = '87900e89c25159cc6258640508cf9113'
+
+[exercises.part03-33_chessboard]
+id = 152022
+checksum = '0f0856c78eacadfc24411c7dec04b1e2'
+
+[exercises.part03-34_word_squared]
+id = 152042
+checksum = '7c622c6eb7cf3f9e03d9bfbee9b7fd5b'
