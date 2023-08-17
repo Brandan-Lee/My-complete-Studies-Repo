@@ -15,3 +15,7 @@ Course: Full Stack Web Developer Projects
 Full Stack Web Developer Course Link: https://www.udemy.com/course/the-ultimate-fullstack-web-development-bootcamp/
 
 BloomTect Course Link: https://learnworlds.bloomtech.com/course/beginning-your-coding-journey-html
+
+University of Helsinki Courses Links:
+https://java-programming.mooc.fi
+https://programming-23.mooc.fi
