@@ -1,0 +1,8 @@
+Create
+Create Database Company
+
+Alter 
+Alter Database Company Modify name = Company1
+
+Delete
+Drop Database Company1

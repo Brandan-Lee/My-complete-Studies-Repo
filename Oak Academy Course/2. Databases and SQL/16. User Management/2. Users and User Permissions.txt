@@ -1,0 +1,9 @@
+Users use logins to access the databases
+
+Create a user
+Create User Test_User For Login admin
+
+User Permissions
+-The rights to access database objects
+
+

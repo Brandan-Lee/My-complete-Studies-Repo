@@ -1,0 +1,19 @@
+Intersect
+Used to combine two select statements but returns rows only from the first select statement identical to the second select statement
+Select Jobtitle
+From HumanResources.Employee
+Where Gender = 'M'
+Intersect
+Select JobTitle
+From HumanResources.Employee
+Where Gender = 'F'
+
+Except
+Used to combine two or more select statements and returns rows from the first select statement that are not returned by the second select statement
+Select JobTitle 
+From HumanResources.Employee
+Where Gender = 'M'
+Except
+Select JobTitle
+From HumanResources.Employee
+Where Gender = 'F'

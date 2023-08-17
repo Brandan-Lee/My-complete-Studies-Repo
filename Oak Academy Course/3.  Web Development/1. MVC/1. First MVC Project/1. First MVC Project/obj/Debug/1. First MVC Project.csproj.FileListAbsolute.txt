@@ -1,0 +1,21 @@
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\_1.First_MVC_Project.dll.config
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\_1.First_MVC_Project.dll
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\_1.First_MVC_Project.pdb
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\System.Web.Helpers.dll
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\System.Web.Mvc.dll
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\System.Web.Razor.dll
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\System.Web.Webpages.Deployment.dll
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\System.Web.Webpages.dll
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\System.Web.Webpages.Razor.dll
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\System.Web.Razor.xml
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\System.Web.Webpages.xml
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\System.Web.Webpages.Deployment.xml
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\System.Web.Webpages.Razor.xml
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\System.Web.Helpers.xml
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\bin\System.Web.Mvc.xml
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\obj\Debug\1. First MVC Project.csproj.AssemblyReference.cache
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\obj\Debug\1. First MVC Project.csproj.CoreCompileInputs.cache
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\obj\Debug\1. First MVC Project.csproj.CopyComplete
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\obj\Debug\_1.First_MVC_Project.dll
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Web Development\1. MVC\1. First MVC Project\1. First MVC Project\obj\Debug\_1.First_MVC_Project.pdb

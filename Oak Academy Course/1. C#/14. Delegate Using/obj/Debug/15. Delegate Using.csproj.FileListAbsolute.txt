@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\15. Delegate Using\bin\Debug\_15.Delegate_Using.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\15. Delegate Using\bin\Debug\_15.Delegate_Using.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\15. Delegate Using\bin\Debug\_15.Delegate_Using.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\15. Delegate Using\obj\Debug\15. Delegate Using.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\15. Delegate Using\obj\Debug\15. Delegate Using.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\15. Delegate Using\obj\Debug\_15.Delegate_Using.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\15. Delegate Using\obj\Debug\_15.Delegate_Using.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\15. Delegate Using\obj\Debug\15. Delegate Using.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\15. Delegate Using\obj\Debug\15. Delegate Using.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\15. Delegate Using\obj\Debug\_15.Delegate_Using.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\15. Delegate Using\obj\Debug\_15.Delegate_Using.pdb

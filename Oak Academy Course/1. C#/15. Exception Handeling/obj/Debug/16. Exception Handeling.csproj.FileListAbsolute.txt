@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\16. Exception Handeling\bin\Debug\_16.Exception_Handeling.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\16. Exception Handeling\bin\Debug\_16.Exception_Handeling.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\16. Exception Handeling\bin\Debug\_16.Exception_Handeling.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\16. Exception Handeling\obj\Debug\16. Exception Handeling.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\16. Exception Handeling\obj\Debug\16. Exception Handeling.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\16. Exception Handeling\obj\Debug\_16.Exception_Handeling.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\16. Exception Handeling\obj\Debug\_16.Exception_Handeling.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\16. Exception Handeling\obj\Debug\16. Exception Handeling.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\16. Exception Handeling\obj\Debug\16. Exception Handeling.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\16. Exception Handeling\obj\Debug\_16.Exception_Handeling.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\16. Exception Handeling\obj\Debug\_16.Exception_Handeling.pdb

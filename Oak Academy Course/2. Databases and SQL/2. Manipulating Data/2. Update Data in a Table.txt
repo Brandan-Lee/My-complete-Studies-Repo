@@ -1,0 +1,10 @@
+Update 1 Column
+Update Employees
+Set Age = 21
+Where EmployeeID = 1
+
+Multiple Columns
+Update Employees
+Set Age = 21,
+DepID = 1
+Where EmployeeID = 1

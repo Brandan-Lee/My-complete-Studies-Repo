@@ -1,0 +1,7 @@
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\3. Windows Forms\Projects\Personel Tracking\DAL\bin\Debug\DAL.dll
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\3. Windows Forms\Projects\Personel Tracking\DAL\bin\Debug\DAL.pdb
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\3. Windows Forms\Projects\Personel Tracking\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\3. Windows Forms\Projects\Personel Tracking\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\3. Windows Forms\Projects\Personel Tracking\DAL\obj\Debug\DAL.dll
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\3. Windows Forms\Projects\Personel Tracking\DAL\obj\Debug\DAL.pdb
+C:\Users\brand\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\3. Windows Forms\Projects\Personel Tracking\DAL\bin\Debug\DAL.dll.config

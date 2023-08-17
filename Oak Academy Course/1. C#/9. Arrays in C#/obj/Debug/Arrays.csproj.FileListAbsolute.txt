@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\10. Arrays in C#\Arrays\bin\Debug\Arrays.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\10. Arrays in C#\Arrays\bin\Debug\Arrays.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\10. Arrays in C#\Arrays\bin\Debug\Arrays.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\10. Arrays in C#\Arrays\obj\Debug\Arrays.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\10. Arrays in C#\Arrays\obj\Debug\Arrays.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\10. Arrays in C#\Arrays\obj\Debug\Arrays.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\10. Arrays in C#\Arrays\obj\Debug\Arrays.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\10. Arrays in C#\Arrays\obj\Debug\Arrays.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\10. Arrays in C#\Arrays\obj\Debug\Arrays.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\10. Arrays in C#\Arrays\obj\Debug\Arrays.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\10. Arrays in C#\Arrays\obj\Debug\Arrays.pdb

@@ -1,0 +1,7 @@
+Set operations defintion
+Used to combine the same data from different tables
+tables must have the same amount of columns
+every columns data type must be the same
+order by must be used at the end if you want to order the data
+records from top query must match positional ordering of the records from the bottom query
+column names or aliases must be found in the first select statement

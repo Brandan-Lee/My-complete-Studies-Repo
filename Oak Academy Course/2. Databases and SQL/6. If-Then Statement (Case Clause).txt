@@ -1,0 +1,25 @@
+Case Statement
+Almost the exact same as C# if statement
+Select DepID, DepartmentName,
+	Case
+		When DepartmentName = 'IT' Then 'Information Technology'
+		When DepartmentName = 'HR' Then 'Human Resources'
+		When DepartmentName = 'FI' Then 'Financial Institution'
+	End as 'Department Long Name'
+From Departments
+Can write the column after the case to get the same result
+Select DepID, DepartmentName,
+	Case DepartmentName
+		When 'IT' Then 'Information Technology'
+		When 'HR' Then 'Human Resources'
+		When 'FI' Then 'Financial Institution'
+	End as 'Department Long Name'
+From Departments
+Use else
+Select DepID, DepartmentName,
+	Case DepartmentName
+		When 'IT' Then 'Information Technology'
+		When 'HR' Then 'Human Resources'
+		Else 'Financial Institution'
+	End as 'Department Long Name'
+From Departments

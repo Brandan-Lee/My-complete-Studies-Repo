@@ -1,0 +1,41 @@
+Getdate()
+-will return the current date along with time
+Select GETDATE()
+
+IsDate()
+-checks an expression and returns 1 if it is a valid date
+Select ISDATE('2023-03-07') -- 1
+
+Day()
+-returns the day of the month for a specified date(1-31)
+Select DAY('2023-03-07') -- 7
+
+Month()
+-returns the month part for a specified date(1-12)
+Select MONTH('2023-03-07') -- 3
+
+Year()
+-returns the year part for a specified date
+Select YEAR('2023-03-07') -- 2023
+
+DatePart()
+-will return the part of date or time
+--year, quarter, month, dayofyear, day, week, weekday, hour, minute, seconds, milliseconds returns integers
+Select DATEPART(Year, '2023-03-07 15:06:48.260') -- 2023
+
+DateName()
+-return the part of date or time
+--year, quarter, month, dayofyear, day, week, weekday, hour, minute, seconds, milliseconds returns String(nvarchar)
+Select DATENAME(Month, '2023-03-07 15:06:48.260') -- March
+
+DateAdd()
+-Adds a time/date interval to a date and then returns the date
+--year, quarter, month, dayofyear, day, week, weekday, hour, minute, seconds, milliseconds
+Select DATEADD(Day, 5,  '2023-03-07') -- 2023-03-12
+
+DateDiff()
+-Displays the date and time between two dates
+--year, quarter, month, dayofyear, day, week, weekday, hour, minute, seconds, milliseconds
+Select DATEDIFF(Year, '1989-01-01', '2020-01-10') -- returns 31
+
+

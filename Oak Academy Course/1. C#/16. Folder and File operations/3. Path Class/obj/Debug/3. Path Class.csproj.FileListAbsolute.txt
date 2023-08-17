@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\17. Folder and File operations\3. Path Class\bin\Debug\_3.Path_Class.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\17. Folder and File operations\3. Path Class\bin\Debug\_3.Path_Class.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\17. Folder and File operations\3. Path Class\bin\Debug\_3.Path_Class.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\17. Folder and File operations\3. Path Class\obj\Debug\3. Path Class.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\17. Folder and File operations\3. Path Class\obj\Debug\3. Path Class.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\17. Folder and File operations\3. Path Class\obj\Debug\_3.Path_Class.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\17. Folder and File operations\3. Path Class\obj\Debug\_3.Path_Class.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\17. Folder and File operations\3. Path Class\obj\Debug\3. Path Class.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\17. Folder and File operations\3. Path Class\obj\Debug\3. Path Class.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\17. Folder and File operations\3. Path Class\obj\Debug\_3.Path_Class.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\17. Folder and File operations\3. Path Class\obj\Debug\_3.Path_Class.pdb

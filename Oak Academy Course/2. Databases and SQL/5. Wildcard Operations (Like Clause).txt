@@ -1,0 +1,40 @@
+%
+Can be used with any letter... it will find the data that starts with the letter... if the % is in the front, it will find the data that ends with the letter(s)
+If it is in the back, it will find the data that starts with the letter(s)... if the letter is in the middle between two %, it will find any data that contains the letter(s)
+Front
+Select *
+From Person.Person
+Where FirstName
+Like 'a%'
+Back
+Select *
+From Person.Person
+Where FirstName
+Like '%a'
+Middle
+Select *
+From Person.Person
+Where FirstName
+Like '%a%'
+
+_
+Used to compare values to simialar values... Use this to find the amount of letters in the data
+This will find data containing 5 letters
+Select *
+From Person.Person
+Where FirstName
+Like '_inda'
+
+Like clause charlist
+Looks for the data that contains these letters, can be grouped with % and _... can be used with -
+Select *
+From Person.Person
+Where FirstName
+Like '[abc]%'
+
+Not Like
+Not the same... can be used with -
+Select *
+From Person.Person
+Where FirstName
+Not Like '[abc]%'

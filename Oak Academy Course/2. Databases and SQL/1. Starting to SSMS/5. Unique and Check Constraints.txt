@@ -1,0 +1,27 @@
+Unique
+Alter Table Employees
+Add Constraint U_Phone
+Unique(Phone)
+
+OR
+
+Create Table Employees
+(
+	Phone int Not Null Unique
+)
+
+Check
+Alter Table Employees
+Add Constraint CHK_Age
+Check(Age)
+
+OR
+
+Create Table Employees
+(
+	Age int Not Null Check(Age >= 18)
+)
+
+Delete Constraint
+Alter Table Employees
+Drop Constraint CHK_Age

@@ -1,0 +1,12 @@
+Foreign key is a reference to another table
+
+Create Table Departments
+(
+	DepID int Primary Key Not Null
+)
+
+Create Table Employees
+(
+	EmployeeID int Primary Key Not Null,
+	DepID int Foreign Key references Departments(DepID) Not Null
+)

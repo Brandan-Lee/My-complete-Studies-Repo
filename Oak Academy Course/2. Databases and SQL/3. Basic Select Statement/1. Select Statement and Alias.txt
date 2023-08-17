@@ -1,0 +1,20 @@
+Retrieve all columns
+Select * From Employees
+
+Retrieve specific columns
+Select EmployeeName, Phone, Age
+From Employees
+
+Column Alias
+Select 
+	EmployeeName as Name, --if spaces in alias 'Employee Name'
+	Phone as Phone,
+	Age
+From Employees
+
+Table Alias
+Select
+	TableEmployees.EmployeeName,
+	TableEmployees.Phone, 
+	TableEmployees.Age
+From Employees as TableEmployees

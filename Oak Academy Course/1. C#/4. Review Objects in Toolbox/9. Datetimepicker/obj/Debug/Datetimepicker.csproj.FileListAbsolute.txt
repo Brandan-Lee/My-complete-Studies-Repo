@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\Datetimepicker\bin\Debug\Datetimepicker.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\Datetimepicker\bin\Debug\Datetimepicker.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\Datetimepicker\bin\Debug\Datetimepicker.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\Datetimepicker\obj\Debug\Datetimepicker.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\Datetimepicker\obj\Debug\Datetimepicker.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\Datetimepicker\obj\Debug\Datetimepicker.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\Datetimepicker\obj\Debug\Datetimepicker.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\Datetimepicker\obj\Debug\Datetimepicker.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\Datetimepicker\obj\Debug\Datetimepicker.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\Datetimepicker\obj\Debug\Datetimepicker.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\Datetimepicker\obj\Debug\Datetimepicker.pdb

@@ -1,0 +1,29 @@
+Convert date
+Select Convert(varchar, GETDATE(), 1) as 'Format-1',
+	Convert(varchar, GETDATE(), 2) as 'Format-2',
+	Convert(varchar, GETDATE(), 3) as 'Format-3',
+    Convert(varchar, GETDATE(), 4) as 'Format-4',
+	Convert(varchar, GETDATE(), 5) as 'Format-5',
+	Convert(varchar, GETDATE(), 6) as 'Format-6',
+	Convert(varchar, GETDATE(), 7) as 'Format-7',
+	Convert(varchar, GETDATE(), 10) as 'Format-10'
+
+Select DATEDIFF(Year, Convert(varchar, Birthdate, 10), GETDATE())
+From HumanResources.Employee
+
+Convert time
+Select
+	Convert(varchar, GETDATE(), 8) as 'Format-8',
+	Convert(varchar, GETDATE(), 14) as 'Format-14',
+	Convert(varchar, GETDATE(), 24) as 'Format-24',
+	Convert(varchar, GETDATE(), 108) as 'Format-108'
+
+Convert both date and time
+Select
+	Convert(varchar, GETDATE(), 0) as 'Format-0',
+	Convert(varchar, GETDATE(), 9) as 'Format-9',
+	Convert(varchar, GETDATE(), 13) as 'Format-13',
+	Convert(varchar, GETDATE(), 20) as 'Format-20',
+	Convert(varchar, GETDATE(), 21) as 'Format-21',
+	Convert(varchar, GETDATE(), 22) as 'Format-22',
+	Convert(varchar, GETDATE(), 25) as 'Format-25'

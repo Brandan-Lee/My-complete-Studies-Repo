@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\7. Checkbox\bin\Debug\_7.Checkbox.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\7. Checkbox\bin\Debug\_7.Checkbox.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\7. Checkbox\bin\Debug\_7.Checkbox.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\7. Checkbox\obj\Debug\7. Checkbox.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\7. Checkbox\obj\Debug\7. Checkbox.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\7. Checkbox\obj\Debug\_7.Checkbox.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\7. Checkbox\obj\Debug\_7.Checkbox.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\7. Checkbox\obj\Debug\7. Checkbox.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\7. Checkbox\obj\Debug\7. Checkbox.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\7. Checkbox\obj\Debug\_7.Checkbox.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\7. Checkbox\obj\Debug\_7.Checkbox.pdb

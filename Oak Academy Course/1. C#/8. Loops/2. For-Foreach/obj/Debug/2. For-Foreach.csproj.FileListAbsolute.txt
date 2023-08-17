@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\2. For-Foreach\bin\Debug\_2.For_Foreach.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\2. For-Foreach\bin\Debug\_2.For_Foreach.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\2. For-Foreach\bin\Debug\_2.For_Foreach.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\2. For-Foreach\obj\Debug\2. For-Foreach.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\2. For-Foreach\obj\Debug\2. For-Foreach.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\2. For-Foreach\obj\Debug\_2.For_Foreach.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\2. For-Foreach\obj\Debug\_2.For_Foreach.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\2. For-Foreach\obj\Debug\2. For-Foreach.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\2. For-Foreach\obj\Debug\2. For-Foreach.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\2. For-Foreach\obj\Debug\_2.For_Foreach.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\2. For-Foreach\obj\Debug\_2.For_Foreach.pdb

@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\1. While DoWhile\bin\Debug\_1.While_DoWhile.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\1. While DoWhile\bin\Debug\_1.While_DoWhile.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\1. While DoWhile\bin\Debug\_1.While_DoWhile.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\1. While DoWhile\obj\Debug\1. While DoWhile.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\1. While DoWhile\obj\Debug\1. While DoWhile.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\1. While DoWhile\obj\Debug\_1.While_DoWhile.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\1. While DoWhile\obj\Debug\_1.While_DoWhile.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\1. While DoWhile\obj\Debug\1. While DoWhile.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\1. While DoWhile\obj\Debug\1. While DoWhile.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\1. While DoWhile\obj\Debug\_1.While_DoWhile.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\8. Loops\1. While DoWhile\obj\Debug\_1.While_DoWhile.pdb

@@ -1,0 +1,6 @@
+Select count(*)
+From Sales.SalesOrderDetail
+Where ProductID = (
+Select ProductID
+From Production.Product
+Where Name = 'Cable Lock')

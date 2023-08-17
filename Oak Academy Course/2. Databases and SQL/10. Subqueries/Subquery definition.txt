@@ -1,0 +1,7 @@
+Sql statement inside a statement
+Must be enclosed with parentheses()
+Must include select and from
+optional- where, group by and having
+cannot be immediately enclosed in a set function (union etc)
+order by cant be used
+

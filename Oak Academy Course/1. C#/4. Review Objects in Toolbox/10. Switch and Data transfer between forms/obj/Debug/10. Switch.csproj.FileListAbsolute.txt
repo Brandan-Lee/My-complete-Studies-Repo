@@ -1,0 +1,12 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\10. Switch\bin\Debug\_10.Switch.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\10. Switch\bin\Debug\_10.Switch.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\10. Switch\bin\Debug\_10.Switch.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\10. Switch\obj\Debug\10. Switch.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\10. Switch\obj\Debug\10. Switch.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\10. Switch\obj\Debug\_10.Switch.frmGetData.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\10. Switch\obj\Debug\_10.Switch.frmShowData.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\10. Switch\obj\Debug\_10.Switch.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\10. Switch\obj\Debug\10. Switch.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\10. Switch\obj\Debug\10. Switch.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\10. Switch\obj\Debug\_10.Switch.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\10. Switch\obj\Debug\_10.Switch.pdb

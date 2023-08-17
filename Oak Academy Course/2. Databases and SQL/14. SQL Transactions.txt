@@ -1,0 +1,54 @@
+-Unit of work that is performed against a database
+
+Acid
+	Atomicity
+	-Transactions are all or nothing
+
+	Consistency	
+	-Only valid data is saved
+	
+	Isolation
+	-Transactions do not affect each other
+
+	Durability
+	-Written data will not be lost
+
+Commands
+	Rollback
+	-is the transactional command used to undo transactions that have not already been saved to the database
+	just write rollback if you want to undo changes
+
+	Commit
+	-is the transactional command used to save changes invoked by a transaction to the database
+	just write commit if you want to add the changes to the database
+
+	Savepoint
+	-is a point in a transaction when you can roll the transaction back to a certain point without rolling 
+	back the entire transaction
+	Save Tran SaveFirstName
+
+Example of everything together
+Begin Tran --Begin Transaction
+
+Update Person.Person --Update FirstName
+Set FirstName = 'Tom' 
+Where BusinessEntityID = 2
+Save Tran SaveFirstName --Save Point for first name
+
+Update Person.Person --Update MiddleName
+Set MiddleName = 'Z' 
+Where BusinessEntityID = 2
+Save Tran SaveMiddleName --Save point for Middle name
+
+Update Person.Person --Update LastName
+Set LastName = 'Walker' 
+Where BusinessEntityID = 2
+Save Tran SaveLastName --Save point for last name
+
+Rollback Tran SaveMiddleName
+Rollback
+Commit
+	
+	
+	
+

@@ -1,0 +1,30 @@
+schema
+-only belongs to one database
+
+Create a schema
+Create Schema TestSchema
+Authorization Test_User
+
+Create a table within a schema
+Create Table TestSchema.Departments
+(
+	ID int Not Null,
+	DepartmentName varchar Not Null
+)
+
+Change schema of a table
+Alter Schema NewSchema
+Transfer TestSchema.Departments
+
+Remove a schema
+Drop Schema TestSchema
+
+Views
+-is a virtual table on the result-set of an SQL statement
+
+Create a view
+Create View VPersonWithMailAddress As
+Select FirstName, LastName, EmailAddress 
+From Person.Person As P
+Join Person.EmailAddress As E
+On P.BusinessEntityID = E.BusinessEntityID

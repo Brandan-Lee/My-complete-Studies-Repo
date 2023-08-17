@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\ReviewingToolbox\bin\Debug\ReviewingToolbox.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\ReviewingToolbox\bin\Debug\ReviewingToolbox.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\ReviewingToolbox\bin\Debug\ReviewingToolbox.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\ReviewingToolbox\obj\Debug\ReviewingToolbox.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\ReviewingToolbox\obj\Debug\ReviewingToolbox.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\ReviewingToolbox\obj\Debug\ReviewingToolbox.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\ReviewingToolbox\obj\Debug\ReviewingToolbox.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\ReviewingToolbox\obj\Debug\ReviewingToolbox.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\ReviewingToolbox\obj\Debug\ReviewingToolbox.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\ReviewingToolbox\obj\Debug\ReviewingToolbox.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\ReviewingToolbox\obj\Debug\ReviewingToolbox.pdb

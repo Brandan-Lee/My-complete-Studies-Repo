@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\3. Inheritance\bin\Debug\_3.Inheritance.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\3. Inheritance\bin\Debug\_3.Inheritance.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\3. Inheritance\bin\Debug\_3.Inheritance.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\3. Inheritance\obj\Debug\3. Inheritance.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\3. Inheritance\obj\Debug\3. Inheritance.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\3. Inheritance\obj\Debug\_3.Inheritance.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\3. Inheritance\obj\Debug\_3.Inheritance.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\3. Inheritance\obj\Debug\3. Inheritance.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\3. Inheritance\obj\Debug\3. Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\3. Inheritance\obj\Debug\_3.Inheritance.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\3. Inheritance\obj\Debug\_3.Inheritance.pdb

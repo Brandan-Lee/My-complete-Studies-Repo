@@ -1,0 +1,19 @@
+Constraints
+
+Not Null
+Create Table Employees
+(
+	EmployeeID int Not Null
+)
+
+Default
+Create Table Employees
+(
+	Salary Decimal(10, 2) Default 3000.00
+)
+
+Primary Key
+Create Table Departments
+(
+	DepID int Primary Key
+)

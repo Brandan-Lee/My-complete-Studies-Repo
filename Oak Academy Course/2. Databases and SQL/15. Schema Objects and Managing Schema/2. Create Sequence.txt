@@ -1,0 +1,68 @@
+Sequence
+-Is an object in SQL server that is used to generate a number sequence
+Properties
+Datatype
+-built in integer type or user defined integer type. The default is bigint
+
+Start with
+-is the first value that is going to be returned by the sequence object
+
+increment by
+-is the value to increment or decrement by the sequence object for each row. If you specify a negative value
+then the value is going to decrement
+
+minvalue
+-it specifies the min value for the sequence object
+
+maxvalue
+-Maximum value for the sequence object
+
+cycle
+-Cache sequence values for performance. default is CACHE
+
+Cache
+-no cache option specified then it will not cache the sequence numbers
+
+Create a sequence
+Create Sequence SequenceObject
+Start With 1
+Increment By 1
+
+Next sequence value
+Select Next Value for SequenceObject
+
+Current Sequence value
+Select * 
+From sys.sequences
+Where name = 'SequenceObject'
+
+Reset sequence value
+Alter Sequence SequenceObject
+Restart With 1
+
+sequence value in insert
+Insert Into HumanResources.Departments
+Values
+(
+	Next Value For SequenceObject, 'S'
+)
+
+Decrement Sequence
+Change the sequence increment by with -1 etc
+
+min, max sequence value
+Create Sequence MinMaxSeq
+Start With 100
+Increment By 20
+MinValue 100
+MaxValue 200
+
+Cycle property
+-restarts the sequence
+Alter Sequence MinMaxSeq
+Increment By 20
+MinValue 100
+MaxValue 200
+Cycle
+
+Removing a sequence

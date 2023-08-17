@@ -1,0 +1,20 @@
+These functions convert a value of any type into a specified type... You can use either function, syntax is just different...
+Convert()  Datatype and Expression must be specified The length and style is optional. Usually used to convert date time
+Select Convert(int, 5.45)
+Select Convert(float, 5.45)
+Select Convert(varchar, 5.45)
+Select Convert(datetime, '2020-01-07') as TextToDateTime
+Real Example
+Select FirstName, LastName, ModifiedDate,
+	Convert(varchar(11), ModifiedDate) DateToText
+From Person.Person
+
+Cast() Expression and datatype must be specified, The length is optional
+Select Cast(5.45 as int)
+Select Cast(5.45 as float)
+Select Cast(5.45 as varchar)
+Select Cast('2020-01-07' as datetime) as TextToDateTimeWithCast
+Real Example
+Select FirstName, LastName, ModifiedDate,
+	Cast(ModifiedDate as varchar(11)) DateToText
+From Person.Person

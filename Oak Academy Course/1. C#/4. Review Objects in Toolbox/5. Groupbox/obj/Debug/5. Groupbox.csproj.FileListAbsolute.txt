@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\5. Groupbox\bin\Debug\_5.Groupbox.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\5. Groupbox\bin\Debug\_5.Groupbox.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\5. Groupbox\bin\Debug\_5.Groupbox.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\5. Groupbox\obj\Debug\5. Groupbox.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\5. Groupbox\obj\Debug\5. Groupbox.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\5. Groupbox\obj\Debug\_5.Groupbox.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\5. Groupbox\obj\Debug\_5.Groupbox.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\5. Groupbox\obj\Debug\5. Groupbox.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\5. Groupbox\obj\Debug\5. Groupbox.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\5. Groupbox\obj\Debug\_5.Groupbox.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\4. Review Objects in Toolbox\5. Groupbox\obj\Debug\_5.Groupbox.pdb

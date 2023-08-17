@@ -1,0 +1,34 @@
+Len()
+-returns the length of a string
+Select LEN('Oak Academy 2020') - 16
+
+Left()
+-extracts the number of characters from a string (starting from left)
+Select LEFT('Oak Academy 2020', 3) - Oak
+
+Trim()
+-Removes leading and trailing spaces from a string
+Select TRIM('Oak Academy     ') - Oak Academy
+
+Lower()
+-Converts a string to lower-case
+Select LOWER('OAK ACADEMY 2020') - oak academy 2020
+
+Upper()
+-Converts a string to upper-case
+Select UPPER('Oak Academy 2020') - OAK ACADEMY 2020
+Examples
+Select UPPER(FirstName), UPPER(LastName)
+From Person.Person
+
+Reverse()
+-reverses a string and returns the result
+Select REVERSE('Oak Academy 2020') - 0202 ymedacA kaO
+
+Replace()
+-replaces all occurrences of a substring within a string, with a new substring
+Select REPLACE('Oak Academy 2020', '2020', '2021') - Oak Academy 2021
+
+Substring()
+- Extracts some characters from a string
+Select SUBSTRING('Oak Academy 2020', 5, 12) - Academy 2020

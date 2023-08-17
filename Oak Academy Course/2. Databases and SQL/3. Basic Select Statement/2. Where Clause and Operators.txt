@@ -1,0 +1,25 @@
+Where
+Select *
+From Person.Person
+Where FirstName = 'Terri'
+
+Operators 
+	Comparisons (Same as in programming language)
+		> < <= >= = <>(Not Equal)
+		Select * 
+		From Person.Person
+		Where BusinessEntityID <> 5
+	Logical
+		AND OR BETWEEN IN EXIST
+			Select * 
+			From Person.Person
+			Where firstName = 'Dylan' and LastName = 'Miller'
+		Between
+			Select * 
+			From Person.Person
+			Where BusinessEntityID between 1 and 5
+		In (will return list numbers)
+			Select * 
+			From Person.Person
+			Where BusinessEntityID IN (1, 2, 5)
+			

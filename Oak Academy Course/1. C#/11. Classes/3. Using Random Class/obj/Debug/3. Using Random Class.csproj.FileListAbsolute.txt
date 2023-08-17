@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\3. Using Random Class\bin\Debug\_3.Using_Random_Class.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\3. Using Random Class\bin\Debug\_3.Using_Random_Class.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\3. Using Random Class\bin\Debug\_3.Using_Random_Class.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\3. Using Random Class\obj\Debug\3. Using Random Class.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\3. Using Random Class\obj\Debug\3. Using Random Class.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\3. Using Random Class\obj\Debug\_3.Using_Random_Class.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\3. Using Random Class\obj\Debug\_3.Using_Random_Class.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\3. Using Random Class\obj\Debug\3. Using Random Class.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\3. Using Random Class\obj\Debug\3. Using Random Class.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\3. Using Random Class\obj\Debug\_3.Using_Random_Class.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\3. Using Random Class\obj\Debug\_3.Using_Random_Class.pdb

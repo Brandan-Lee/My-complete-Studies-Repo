@@ -1,0 +1,13 @@
+Left(Outer) Join
+Production product is the left table that checks if the right table(Sales.SalesOrderDetail) matches the left table... if not... It will return null
+Select Name, SalesOrderDetailID 
+From Production.Product as P
+Left Join Sales.SalesOrderDetail as S
+On P.ProductID = S.ProductID
+
+Right(Outer) Join
+Production product is the left table that checks if the right table(Sales.SalesOrderDetail) matches the right table... if not... It will return null
+Select Name, SalesOrderDetailID
+From Production.Product as P
+Right Join Sales.SalesOrderDetail as S
+On P.ProductID = S.ProductID

@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\5. Using Math Class\bin\Debug\_5.Using_Math_Class.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\5. Using Math Class\bin\Debug\_5.Using_Math_Class.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\5. Using Math Class\bin\Debug\_5.Using_Math_Class.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\5. Using Math Class\obj\Debug\5. Using Math Class.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\5. Using Math Class\obj\Debug\5. Using Math Class.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\5. Using Math Class\obj\Debug\_5.Using_Math_Class.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\5. Using Math Class\obj\Debug\_5.Using_Math_Class.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\5. Using Math Class\obj\Debug\5. Using Math Class.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\5. Using Math Class\obj\Debug\5. Using Math Class.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\5. Using Math Class\obj\Debug\_5.Using_Math_Class.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\12. Classes\5. Using Math Class\obj\Debug\_5.Using_Math_Class.pdb

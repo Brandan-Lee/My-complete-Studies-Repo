@@ -1,0 +1,35 @@
+Distinct (Eliminate Duplicates in the data)
+	Select Distinct PersonType
+	From Person.Person
+	
+	Multiple Columns
+		Select Distinct PersonType
+		From Person.Person
+
+Top (First n amount of data)
+	Select Top 20 *
+	From Person.Person
+
+Orderby (ascending or descending)
+	--Ascending Order
+	Select FirstName, MiddleName, LastName
+	From Person.Person
+	Order By FirstName Asc
+
+	--Descending Order
+	Select FirstName, MiddleName, LastName
+	From Person.Person
+	Order By FirstName Desc
+
+Group By (Arrange identical data into groups)
+	Select Shelf, sum(Quantity) As Quantity, sum(bin) as Bin
+	From Production.ProductInventory
+	Group By Shelf
+	Order By Shelf Asc
+
+Having (Specifies conditions that filter which group results appear in the final results) Use this with comparison operators and aggregate functions
+	Select Shelf, sum(Quantity) As Quantity, sum(bin) as Bin
+	From Production.ProductInventory
+	Group By Shelf
+	Having sum(Quantity) > 1000
+	Order By Shelf Asc

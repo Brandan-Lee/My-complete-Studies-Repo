@@ -1,0 +1,8 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\1. Console Environment for C#\firstProject1\bin\Debug\firstProject1.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\1. Console Environment for C#\firstProject1\bin\Debug\firstProject1.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\1. Console Environment for C#\firstProject1\bin\Debug\firstProject1.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\1. Console Environment for C#\firstProject1\obj\Debug\firstProject1.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\1. Console Environment for C#\firstProject1\obj\Debug\firstProject1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\1. Console Environment for C#\firstProject1\obj\Debug\firstProject1.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\1. Console Environment for C#\firstProject1\obj\Debug\firstProject1.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\1. Console Environment for C#\firstProject1\obj\Debug\firstProject1.pdb

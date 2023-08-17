@@ -1,0 +1,11 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\6. Before Starting Know-how\3. Breakpoints\bin\Debug\_3.Breakpoints.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\6. Before Starting Know-how\3. Breakpoints\bin\Debug\_3.Breakpoints.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\6. Before Starting Know-how\3. Breakpoints\bin\Debug\_3.Breakpoints.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\6. Before Starting Know-how\3. Breakpoints\obj\Debug\3. Breakpoints.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\6. Before Starting Know-how\3. Breakpoints\obj\Debug\3. Breakpoints.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\6. Before Starting Know-how\3. Breakpoints\obj\Debug\_3.Breakpoints.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\6. Before Starting Know-how\3. Breakpoints\obj\Debug\_3.Breakpoints.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\6. Before Starting Know-how\3. Breakpoints\obj\Debug\3. Breakpoints.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\6. Before Starting Know-how\3. Breakpoints\obj\Debug\3. Breakpoints.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\6. Before Starting Know-how\3. Breakpoints\obj\Debug\_3.Breakpoints.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\6. Before Starting Know-how\3. Breakpoints\obj\Debug\_3.Breakpoints.pdb

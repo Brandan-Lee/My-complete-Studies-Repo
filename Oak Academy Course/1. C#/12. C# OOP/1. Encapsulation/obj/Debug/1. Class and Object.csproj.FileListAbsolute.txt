@@ -1,0 +1,12 @@
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\1. Class and Object\bin\Debug\_1.Class_and_Object.exe.config
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\1. Class and Object\bin\Debug\_1.Class_and_Object.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\1. Class and Object\bin\Debug\_1.Class_and_Object.pdb
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\1. Class and Object\obj\Debug\1. Class and Object.csproj.AssemblyReference.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\1. Class and Object\obj\Debug\1. Class and Object.csproj.SuggestedBindingRedirects.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\1. Class and Object\obj\Debug\_1.Class_and_Object.Form1.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\1. Class and Object\obj\Debug\_1.Class_and_Object.FrmEmployeeDetials.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\1. Class and Object\obj\Debug\_1.Class_and_Object.Properties.Resources.resources
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\1. Class and Object\obj\Debug\1. Class and Object.csproj.GenerateResource.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\1. Class and Object\obj\Debug\1. Class and Object.csproj.CoreCompileInputs.cache
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\1. Class and Object\obj\Debug\_1.Class_and_Object.exe
+C:\Users\Spider\OneDrive\Study\Udemy\Full Stack Web Development with C# OOP, MS SQL & ASP.NET MVC\13. C# OOP\1. Class and Object\obj\Debug\_1.Class_and_Object.pdb

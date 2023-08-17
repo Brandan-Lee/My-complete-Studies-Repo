@@ -1,0 +1,15 @@
+Union
+Used to combine the result of two or more select statements without returning any duplicate rows
+Select CurrencyCode 
+From Sales.CountryRegionCurrency
+Union
+Select CurrencyCode
+From Sales.Currency
+
+Union All
+Combines two or more result sets into a single set but includes duplicates
+Select CurrencyCode
+From Sales.CountryRegionCurrency
+Union All
+Select CurrencyCode
+From Sales.Currency

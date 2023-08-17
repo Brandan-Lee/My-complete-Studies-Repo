@@ -1,0 +1,24 @@
+Insert
+Insert Into Person.StateProvinceTest
+	Select StateProvinceCode,
+			CountryRegioncode,
+			IsOnlyStateProvinceFlag,
+			Name,
+			TerritoryID,
+			ModifiedDate
+	From Person.StateProvince
+
+Update
+Update Person.StateProvinceTest
+Set TerritoryID = 99
+Where CountryRegionCode IN
+	(Select CountryRegionCode
+	From Person.StateProvince
+	Where CountryRegionCode = 'CA')
+
+Delete
+Delete From Person.StateProvinceTest
+Where CountryRegionCode IN
+	(Select CountryRegionCode
+	From Person.StateProvince
+	Where CountryRegionCode = 'CA')

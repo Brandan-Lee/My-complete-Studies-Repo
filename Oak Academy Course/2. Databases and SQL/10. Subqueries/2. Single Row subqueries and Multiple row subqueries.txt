@@ -1,0 +1,27 @@
+Single row
+Used when the outer queries result is based on a single unknown value. Returns multiple columns... only one row of results consisting of only one column to the outer
+query
+Select count(*)
+From Sales.SalesOrderDetail
+Where ProductID = (
+Select ProductID
+From Production.Product
+Where Name = 'Cable Lock')
+
+Multiple rows
+returns one or more rows to the outer sql statement
+--Which products haven't been ordered yet
+Select *
+From Production.Product
+Where ProductID Not in
+(Select ProductID
+From Sales.SalesOrderDetail)
+
+Correlated subquery (repeating)
+uses the values of the outer query... cannot be executed independently
+Select *
+From Production.Product as P
+Where Not Exists
+	(Select ProductID
+	From Sales.SalesOrderDetail as S
+	Where P.ProductID = s.ProductID)

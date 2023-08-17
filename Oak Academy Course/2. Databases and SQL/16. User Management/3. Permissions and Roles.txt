@@ -1,0 +1,50 @@
+User Permissions
+
+This is how to look at what permissions a user has
+Select P.*
+From sys.database_permissions as P
+Join sys.database_principals as U
+On P.grantee_principal_id = U.principal_id
+Where U.name = 'admin'
+
+
+Grant
+-applies a positive permission
+	Select
+	Insert
+	Update
+	Delete
+	References
+	Alter
+	All - Select, Update, Delete Insert and references
+User
+Grant Create Table to admin--Allows to create a new table
+Table 
+Grant Select, Insert, Update, Delete on Table_1 to admin
+
+Deny
+-applies a negative permission
+User
+Deny Create Table to admin
+Table
+Deny Select on Table_1 to admin
+
+Revoke
+-Removes a granted or denied permission
+Revoke Create Table to admin
+Revoke all on Table_1 to admin
+
+Roles
+-to ease setup and maintenance of the security model
+
+
+
+
+
+	
+
+
+
+
+
+	

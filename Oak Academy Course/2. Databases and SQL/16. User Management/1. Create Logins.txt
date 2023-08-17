@@ -1,0 +1,22 @@
+login
+-is a simple credential for acessing sql server
+
+windows authentication
+-allow you to log in to sql server using a windows username and password
+
+sql authentication
+-users credentials are stored on the database server
+
+Create login
+Create Login NewLogin With Password = '123456'
+
+Rename Login
+Alter Login NewLogin With Name = NewLogin2
+
+Change Login Password
+Alter Login NewLogin2 With Password = '654321'
+
+Delete Login
+Drop Login Test_Login
+
+

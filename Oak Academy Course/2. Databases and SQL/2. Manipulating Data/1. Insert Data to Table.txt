@@ -1,0 +1,8 @@
+With Columns
+Insert Into Employees
+(EmployeeID, EmployeeName, Age)
+Values(1, 'Brandan-Lee', 21)
+
+Without Columns
+Insert Into Employees
+Values(1, 'Brandan-Lee', 21)

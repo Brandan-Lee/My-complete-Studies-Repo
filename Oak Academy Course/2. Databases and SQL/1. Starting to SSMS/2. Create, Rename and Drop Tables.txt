@@ -1,0 +1,15 @@
+Create
+Create Table Employees
+(
+	Employee ID int Primary Key Not Null,
+	EmployeeName varchar(50) Not Null,
+	Phone int Not Null,
+	DepID int Not Null
+)
+
+Rename
+Exec sp_rename 'Employees', 'Departments'
+
+Delete
+Drop Table Employees
+

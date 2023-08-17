@@ -1,0 +1,11 @@
+Inner Join
+Creates a new table with the columns of the different tables together
+Select EmployeeID, EmployeeName, DepartmentName
+From Employees
+Join Departments
+On Employees.DepID = Departments.DepID
+
+Select FirstName, LastName, EmailAddress
+From Person.Person
+Join Person.EmailAddress
+On Person.BusinessEntityID = EmailAddress.BusinessEntityID

@@ -1,0 +1,63 @@
+Abs()
+-Returns the absolute value of a number
+Select ABS(-202) - 202
+
+Avg()
+-returns the average value of an expression
+--What is the average list price of all the products
+Select	AVG(ListPrice)
+from Production.Product - 438,6662
+
+Ceiling()
+-returns the smallest integer value that is >= a number
+Select CEILING(15.75) - 16
+
+Count()
+-returns the number of records returned by a select query
+--How many products are in the Product table
+Select COUNT(*)
+From Production.Product - 504
+
+Floor()
+-returns the largest integer value that is <= to a number
+Select FLOOR(15.75) - 15
+
+Max()
+-Returns the maximim value in a set of values
+--Max list Price
+Select MAX(ListPrice)
+From Production.Product - 3578,27
+
+Min()
+-returns the minimum value in a set of values
+--Min list price
+Select MIN(ListPrice)
+From Production.Product - 0,00
+
+Power()
+-Returns the value of a number raised to the power of another number
+Select POWER(2, 2) - 4
+
+Rand()
+-Returns a random number
+Select RAND() --Returns a random number between 0-1 - 0,724820213590608
+Select RAND(5) --Returns the same number - 0,713666525097956
+Select RAND() * 10 --Returns a random number between 0-10 - 4,54560299686459
+Select Floor(Rand() * 10) --Return an integer number between 0-10 - 8
+
+Round()
+-rounds a number to a specified number of decimal places
+Select ROUND(123.321, -1) - 120.000
+
+Sqrt()
+- Returns the square root of a number
+Select SQRT(9) - 3
+
+Square
+-Returns the square of a number
+Select SQUARE(3) - 9
+
+Sum()
+-Calculates the sum of a set of values
+Select SUM(ListPrice)
+From Production.Product - 221087,79
