@@ -127,6 +127,7 @@ namespace Personel_Tracking
                 cmbPosition.SelectedIndex = -1;
                 comboFull = true;
                 dpBirthday.Value = DateTime.Today;
+                employee = new EMPLOYEE();
             }
         }
 

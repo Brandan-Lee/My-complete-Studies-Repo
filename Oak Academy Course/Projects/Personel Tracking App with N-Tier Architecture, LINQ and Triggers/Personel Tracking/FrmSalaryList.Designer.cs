@@ -147,6 +147,7 @@
             this.btnClean.TabIndex = 5;
             this.btnClean.Text = "Clean";
             this.btnClean.UseVisualStyleBackColor = true;
+            this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
             // 
             // btnSearch
             // 
@@ -157,6 +158,7 @@
             this.btnSearch.TabIndex = 4;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // groupBox1
             // 
@@ -298,6 +300,7 @@
             this.cmbDepartment.Name = "cmbDepartment";
             this.cmbDepartment.Size = new System.Drawing.Size(140, 28);
             this.cmbDepartment.TabIndex = 3;
+            this.cmbDepartment.SelectedIndexChanged += new System.EventHandler(this.cmbDepartment_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -376,6 +379,7 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 222);
@@ -394,6 +398,7 @@
             this.Name = "FrmSalaryList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Salary List";
+            this.Load += new System.EventHandler(this.FrmSalaryList_Load);
             this.panel2.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

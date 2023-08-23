@@ -73,11 +73,12 @@ namespace Personel_Tracking
         {
             if (comboFull)
             {
-                int departmentID = Convert.ToInt32(cmbDepartment.SelectedValue);
-                cmbPosition.DataSource = dto.Positions.Where(x => x.DepartmentID == departmentID).ToList();
+                cmbPosition.DataSource = dto.Positions.Where(x => x.DepartmentID ==
+                Convert.ToInt32(cmbDepartment.SelectedValue)).ToList();
 
                 List<EmployeeDetailDTO> list = dto.Employees;
-                dataGridView1.DataSource = list.Where(x => x.DepartmentID == departmentID).ToList();
+                dataGridView1.DataSource = list.Where(x => x.DepartmentID ==
+                  Convert.ToInt32(cmbDepartment.SelectedValue)).ToList();
             }
         }
 

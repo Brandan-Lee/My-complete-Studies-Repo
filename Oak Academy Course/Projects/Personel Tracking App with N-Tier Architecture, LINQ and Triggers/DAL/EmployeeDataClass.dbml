@@ -58,15 +58,6 @@
       <Column Name="DepartmentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
     </Type>
   </Table>
-  <Table Name="dbo.SALARY" Member="SALARies">
-    <Type Name="SALARY">
-      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="EmployeeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="Amount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="Year" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-      <Column Name="MonthID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
-    </Type>
-  </Table>
   <Table Name="dbo.TASK" Member="TASKs">
     <Type Name="TASK">
       <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
@@ -76,6 +67,15 @@
       <Column Name="TaskStartDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="TaskDeliveryDate" Type="System.DateTime" DbType="Date" CanBeNull="true" />
       <Column Name="TaskState" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SALARY" Member="SALARies">
+    <Type Name="SALARY">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="EmployeeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Amount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Year" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MonthID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
     </Type>
   </Table>
 </Database>

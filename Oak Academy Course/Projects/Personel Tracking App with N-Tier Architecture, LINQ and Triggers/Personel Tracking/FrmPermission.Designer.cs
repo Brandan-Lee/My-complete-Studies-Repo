@@ -47,6 +47,7 @@
             this.txtUserNo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserNo.Location = new System.Drawing.Point(142, 15);
             this.txtUserNo.Name = "txtUserNo";
+            this.txtUserNo.ReadOnly = true;
             this.txtUserNo.Size = new System.Drawing.Size(140, 26);
             this.txtUserNo.TabIndex = 0;
             // 
@@ -67,6 +68,7 @@
             this.dpEnd.Name = "dpEnd";
             this.dpEnd.Size = new System.Drawing.Size(141, 20);
             this.dpEnd.TabIndex = 2;
+            this.dpEnd.ValueChanged += new System.EventHandler(this.dpEnd_ValueChanged);
             // 
             // dpStart
             // 
@@ -75,6 +77,7 @@
             this.dpStart.Name = "dpStart";
             this.dpStart.Size = new System.Drawing.Size(141, 20);
             this.dpStart.TabIndex = 1;
+            this.dpStart.ValueChanged += new System.EventHandler(this.dpStart_ValueChanged);
             // 
             // label7
             // 
@@ -154,6 +157,7 @@
             this.btnSave.TabIndex = 5;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // FrmPermission
             // 
@@ -175,6 +179,7 @@
             this.Name = "FrmPermission";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Permission";
+            this.Load += new System.EventHandler(this.FrmPermission_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

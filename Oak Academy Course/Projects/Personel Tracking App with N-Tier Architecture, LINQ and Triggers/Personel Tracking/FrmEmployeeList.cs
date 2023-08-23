@@ -50,7 +50,8 @@ namespace Personel_Tracking
         {
             this.Close();
         }
-        
+
+        bool comboFull = false;
         void FillGrid()
         {
             dto = EmployeeBLL.GetEmployees();
@@ -58,6 +59,7 @@ namespace Personel_Tracking
 
             //fill comboboxes
             comboFull = false;
+
             cmbDepartment.DataSource = dto.Departments;
             cmbDepartment.DisplayMember = "DepartmentName";
             cmbDepartment.ValueMember = "ID";
@@ -67,19 +69,20 @@ namespace Personel_Tracking
             cmbPosition.DisplayMember = "PositionName";
             cmbPosition.ValueMember = "ID";
             cmbPosition.SelectedIndex = -1;
+
             comboFull = true;
         }
 
         EmployeeDTO dto = new EmployeeDTO();
-        bool comboFull = false;
         private void FrmEmployeeList_Load(object sender, EventArgs e)
         {
             FillGrid();
+
             dataGridView1.Columns[0].Visible = false;
             dataGridView1.Columns[1].HeaderText = "User No";
             dataGridView1.Columns[2].HeaderText = "Name";
             dataGridView1.Columns[3].HeaderText = "Surname";
-            dataGridView1.Columns[4].HeaderText = "Department";
+            dataGridView1.Columns[4].HeaderText = "Dapartment";
             dataGridView1.Columns[5].HeaderText = "Position";
             dataGridView1.Columns[6].Visible = false;
             dataGridView1.Columns[7].Visible = false;
@@ -95,8 +98,8 @@ namespace Personel_Tracking
         {
             if (comboFull)
             {
-                int departmentID = Convert.ToInt32(cmbDepartment.SelectedValue);
-                cmbPosition.DataSource = dto.Positions.Where(x => x.DepartmentID == departmentID).ToList();
+                cmbPosition.DataSource = dto.Positions.Where(x => x.DepartmentID ==
+                Convert.ToInt32(cmbDepartment.SelectedValue)).ToList();
             }
         }
 

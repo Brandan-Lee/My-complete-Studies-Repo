@@ -41,6 +41,7 @@ namespace Personel_Tracking
 
                 txtPosition.Clear();
                 cmbDepartment.SelectedIndex = -1;
+                position = new POSITION();
             }
         }
 

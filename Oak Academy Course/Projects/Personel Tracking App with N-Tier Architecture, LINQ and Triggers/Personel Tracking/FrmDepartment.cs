@@ -37,6 +37,7 @@ namespace Personel_Tracking
                 MessageBox.Show("Department was added");
 
                 txtDepartment.Clear();
+                department = new DEPARTMENT();
             }
         }
     }

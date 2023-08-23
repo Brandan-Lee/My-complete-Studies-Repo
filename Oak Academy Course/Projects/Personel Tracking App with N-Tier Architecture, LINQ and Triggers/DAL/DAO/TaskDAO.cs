@@ -52,12 +52,33 @@ namespace DAL.DAO
                                 taskStateID = t.TaskState
                             }).OrderBy(x => x.startDate).ToList();
 
+                foreach (var item in list)
+                {
+                    TaskDetailDTO dto = new TaskDetailDTO();
+
+                    dto.TaskID = item.taskID;
+                    dto.Title = item.title;
+                    dto.Content = item.content;
+                    dto.TaskStartDate = item.startDate;
+                    dto.TaskDeliveryDate = item.deliveryDate;
+                    dto.TaskStateName = item.taskStateName;
+                    dto.TaskStateID = item.taskStateID;
+                    dto.UserNo = item.userNo;
+                    dto.Name = item.name;
+                    dto.Surname = item.surname;
+                    dto.DepartmentName = item.departmentName;
+                    dto.PositionID = item.positionID;
+                    dto.PositionName = item.positionName;
+                    dto.EmployeeID = item.employeeID;
+
+                    taskList.Add(dto);
+                }
+
                 return taskList;
             }
             catch (Exception ex)
             {
-
-                throw;
+                throw ex;
             }
         }
 

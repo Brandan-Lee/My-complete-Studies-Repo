@@ -61,6 +61,8 @@
             this.btnApprove = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label10 = new System.Windows.Forms.Label();
+            this.cmbTaskState = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -82,8 +84,10 @@
             // panel3
             // 
             this.panel3.Controls.Add(this.btnClean);
+            this.panel3.Controls.Add(this.cmbTaskState);
             this.panel3.Controls.Add(this.btnSearch);
             this.panel3.Controls.Add(this.groupBox1);
+            this.panel3.Controls.Add(this.label10);
             this.panel3.Controls.Add(this.dpEnd);
             this.panel3.Controls.Add(this.dpStart);
             this.panel3.Controls.Add(this.label7);
@@ -100,22 +104,24 @@
             // btnClean
             // 
             this.btnClean.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClean.Location = new System.Drawing.Point(336, 157);
+            this.btnClean.Location = new System.Drawing.Point(304, 174);
             this.btnClean.Name = "btnClean";
-            this.btnClean.Size = new System.Drawing.Size(110, 49);
+            this.btnClean.Size = new System.Drawing.Size(141, 37);
             this.btnClean.TabIndex = 4;
             this.btnClean.Text = "Clean";
             this.btnClean.UseVisualStyleBackColor = true;
+            this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
             // 
             // btnSearch
             // 
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(209, 157);
+            this.btnSearch.Location = new System.Drawing.Point(304, 132);
             this.btnSearch.Name = "btnSearch";
-            this.btnSearch.Size = new System.Drawing.Size(110, 49);
+            this.btnSearch.Size = new System.Drawing.Size(141, 37);
             this.btnSearch.TabIndex = 3;
             this.btnSearch.Text = "Search";
             this.btnSearch.UseVisualStyleBackColor = true;
+            this.btnSearch.Click += new System.EventHandler(this.btnSearch_Click);
             // 
             // groupBox1
             // 
@@ -405,12 +411,32 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 217);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(794, 301);
             this.dataGridView1.TabIndex = 5;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(18, 174);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(53, 20);
+            this.label10.TabIndex = 21;
+            this.label10.Text = "State";
+            // 
+            // cmbTaskState
+            // 
+            this.cmbTaskState.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbTaskState.FormattingEnabled = true;
+            this.cmbTaskState.Location = new System.Drawing.Point(138, 166);
+            this.cmbTaskState.Name = "cmbTaskState";
+            this.cmbTaskState.Size = new System.Drawing.Size(142, 28);
+            this.cmbTaskState.TabIndex = 3;
             // 
             // FrmPermissionList
             // 
@@ -423,6 +449,7 @@
             this.Name = "FrmPermissionList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Permission List";
+            this.Load += new System.EventHandler(this.FrmPermissionList_Load);
             this.panel1.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
@@ -471,5 +498,7 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button btnClean;
         private System.Windows.Forms.Button btnSearch;
+        private System.Windows.Forms.ComboBox cmbTaskState;
+        private System.Windows.Forms.Label label10;
     }
 }
