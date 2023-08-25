@@ -28,5 +28,20 @@ namespace BLL
 
             return taskDto;
         }
+
+        public static void UpdateTask(TASK task)
+        {
+            TaskDAO.UpdateTask(task);
+        }
+
+        public static void UpdateTask(int taskID, int approved)
+        {
+            TaskDAO.UpdateTask(taskID, approved);
+        }
+
+        public static void UpdateTaskNonAdmin(int taskID, int delivered)
+        {
+            TaskDAO.UpdateTaskNonAdmin(taskID, delivered);
+        }
     }
 }

@@ -47,7 +47,6 @@ namespace DAL.DAO
 								imagePath = e.ImagePath,
 								adress = e.Adress,
 								birthday = e.Birthday
-
 							}).OrderBy(x => x.userNo).ToList();
 
 				foreach (var item in list)
@@ -96,6 +95,58 @@ namespace DAL.DAO
         public static List<EMPLOYEE> GetUsers(int v)
         {
             return db.EMPLOYEEs.Where(x => x.UserNo == v).ToList();
+        }
+
+        public static void UpdateEmployee(int employeeID, int amount)
+        {
+			try
+			{
+				EMPLOYEE employee = db.EMPLOYEEs.First(x => x.ID == employeeID);
+
+				employee.Salary = amount;
+
+				db.SubmitChanges();
+			}
+			catch (Exception ex)
+			{
+				throw ex;
+			}
+        }
+
+        public static void UpdateEmployee(EMPLOYEE employee)
+        {
+			try
+			{
+				EMPLOYEE emp = db.EMPLOYEEs.First(x => x.ID == employee.ID);
+
+				emp.UserNo = employee.UserNo;
+				emp.Name = employee.Name;
+				emp.Surname = employee.Surname;
+				emp.Password = employee.Password;
+				emp.Adress = employee.Adress;
+				emp.IsAdmin = employee.IsAdmin;
+				emp.Birthday = employee.Birthday;
+				emp.DepartmentID = employee.DepartmentID;
+				emp.PositionID = employee.PositionID;
+				emp.Salary = employee.Salary;
+				emp.ImagePath = employee.ImagePath;
+
+				db.SubmitChanges();
+			}
+			catch (Exception ex)
+			{
+				throw ex;
+			}
+        }
+
+        public static void UpdateEmployee(POSITION position)
+        {
+			List<EMPLOYEE> list = db.EMPLOYEEs.Where(x => x.ID == position.ID).ToList();
+
+			foreach (var item in list)
+				item.DepartmentID = position.DepartmentID;
+
+			db.SubmitChanges();
         }
     }
 }

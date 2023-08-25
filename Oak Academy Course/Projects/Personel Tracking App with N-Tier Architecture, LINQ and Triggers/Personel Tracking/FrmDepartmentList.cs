@@ -26,14 +26,35 @@ namespace Personel_Tracking
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            ChangeToDepartmentForm();
-            list = DepartmentBLL.GetDepartments();
-            dataGridView1.DataSource = list;
+            if (UserStatic.isAdmin)
+                ChangeToDepartmentForm();
+            else
+                MessageBox.Show("You are not an admin");
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            ChangeToDepartmentForm();
+            if (UserStatic.isAdmin)
+            {
+                if (detail.ID == 0)
+                    MessageBox.Show("Please select a department from the table");
+                else
+                {
+                    FrmDepartment frm = new FrmDepartment();
+
+                    frm.isUpdate = true;
+                    frm.detail = detail;
+
+                    this.Hide();
+                    frm.ShowDialog();
+                    this.Visible = true;
+
+                    list = DepartmentBLL.GetDepartments();
+                    dataGridView1.DataSource = list;
+                }
+            }
+            else
+                MessageBox.Show("You are not an admin");
         }
 
         void ChangeToDepartmentForm()
@@ -42,15 +63,26 @@ namespace Personel_Tracking
             this.Hide();
             frm.ShowDialog();
             this.Visible = true;
+
+            list = DepartmentBLL.GetDepartments();
+            dataGridView1.DataSource = list;
         }
 
         List<DEPARTMENT> list = new List<DEPARTMENT>();
+        public DEPARTMENT detail = new DEPARTMENT();
         private void FrmDepartmentList_Load(object sender, EventArgs e)
         {
             list = DepartmentBLL.GetDepartments();
             dataGridView1.DataSource = list;
             dataGridView1.Columns[0].Visible = false;
             dataGridView1.Columns[1].HeaderText = "Department Name";
+        }
+
+
+        private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            detail.ID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[0].Value);
+            detail.DepartmentName = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
         }
     }
 }

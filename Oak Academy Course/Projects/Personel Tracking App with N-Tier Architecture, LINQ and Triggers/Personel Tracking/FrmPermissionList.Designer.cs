@@ -31,10 +31,12 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnClean = new System.Windows.Forms.Button();
+            this.cmbTaskState = new System.Windows.Forms.ComboBox();
             this.btnSearch = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.rbDeliveryDate = new System.Windows.Forms.RadioButton();
             this.rbStartDate = new System.Windows.Forms.RadioButton();
+            this.label10 = new System.Windows.Forms.Label();
             this.dpEnd = new System.Windows.Forms.DateTimePicker();
             this.dpStart = new System.Windows.Forms.DateTimePicker();
             this.label7 = new System.Windows.Forms.Label();
@@ -61,8 +63,6 @@
             this.btnApprove = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label10 = new System.Windows.Forms.Label();
-            this.cmbTaskState = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -112,6 +112,15 @@
             this.btnClean.UseVisualStyleBackColor = true;
             this.btnClean.Click += new System.EventHandler(this.btnClean_Click);
             // 
+            // cmbTaskState
+            // 
+            this.cmbTaskState.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbTaskState.FormattingEnabled = true;
+            this.cmbTaskState.Location = new System.Drawing.Point(138, 166);
+            this.cmbTaskState.Name = "cmbTaskState";
+            this.cmbTaskState.Size = new System.Drawing.Size(142, 28);
+            this.cmbTaskState.TabIndex = 3;
+            // 
             // btnSearch
             // 
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -155,6 +164,16 @@
             this.rbStartDate.TabStop = true;
             this.rbStartDate.Text = "Start Date";
             this.rbStartDate.UseVisualStyleBackColor = true;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(18, 174);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(53, 20);
+            this.label10.TabIndex = 21;
+            this.label10.Text = "State";
             // 
             // dpEnd
             // 
@@ -387,6 +406,7 @@
             this.btnDisapprove.TabIndex = 0;
             this.btnDisapprove.Text = "Disapprove";
             this.btnDisapprove.UseVisualStyleBackColor = true;
+            this.btnDisapprove.Click += new System.EventHandler(this.btnDisapprove_Click);
             // 
             // btnApprove
             // 
@@ -397,6 +417,7 @@
             this.btnApprove.TabIndex = 1;
             this.btnApprove.Text = "Approve";
             this.btnApprove.UseVisualStyleBackColor = true;
+            this.btnApprove.Click += new System.EventHandler(this.btnApprove_Click);
             // 
             // btnAdd
             // 
@@ -418,25 +439,7 @@
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(794, 301);
             this.dataGridView1.TabIndex = 5;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(18, 174);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(53, 20);
-            this.label10.TabIndex = 21;
-            this.label10.Text = "State";
-            // 
-            // cmbTaskState
-            // 
-            this.cmbTaskState.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmbTaskState.FormattingEnabled = true;
-            this.cmbTaskState.Location = new System.Drawing.Point(138, 166);
-            this.cmbTaskState.Name = "cmbTaskState";
-            this.cmbTaskState.Size = new System.Drawing.Size(142, 28);
-            this.cmbTaskState.TabIndex = 3;
+            this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
             // 
             // FrmPermissionList
             // 

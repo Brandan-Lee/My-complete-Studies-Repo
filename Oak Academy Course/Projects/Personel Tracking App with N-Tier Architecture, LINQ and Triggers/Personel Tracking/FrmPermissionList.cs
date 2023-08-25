@@ -42,7 +42,24 @@ namespace Personel_Tracking
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            ChangeToPermissionForm();
+            if (UserStatic.isAdmin)
+            {
+                if (detail.PermissionID == 0)
+                    MessageBox.Show("Please select a permission from the table");
+                else
+                {
+                    FrmPermission frm = new FrmPermission();
+                    frm.isUpdate = true;
+                    frm.detail = detail;
+                    this.Hide();
+                    frm.ShowDialog();
+                    this.Visible = true;
+                    FillGrid();
+                    CleanFilters();
+                }
+            }
+            else
+                MessageBox.Show("You are not an admin");
         }
 
         void ChangeToPermissionForm()
@@ -156,6 +173,44 @@ namespace Personel_Tracking
             txtDayAmount.Clear();
 
             dataGridView1.DataSource = dto.Permissions;
+        }
+
+        PermissionDetailDTO detail = new PermissionDetailDTO();
+        private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            detail.PermissionID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[14].Value);
+            detail.StartDate = Convert.ToDateTime(dataGridView1.Rows[e.RowIndex].Cells[8].Value);
+            detail.EndDate = Convert.ToDateTime(dataGridView1.Rows[e.RowIndex].Cells[9].Value);
+            detail.Explanation = dataGridView1.Rows[e.RowIndex].Cells[13].Value.ToString();
+            detail.UserNo = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Value);
+            detail.State = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[12].Value);
+            detail.PermissionDayAmount = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[10].Value);
+        }
+
+        private void btnApprove_Click(object sender, EventArgs e)
+        {
+            if (UserStatic.isAdmin)
+            {
+                PermissionBLL.UpdatePermission(detail.PermissionID, PermissionStates.Approved);
+                MessageBox.Show("Approved");
+                FillGrid();
+                CleanFilters();
+            }
+            else
+                MessageBox.Show("You are not an admin");
+        }
+
+        private void btnDisapprove_Click(object sender, EventArgs e)
+        {
+            if (UserStatic.isAdmin)
+            {
+                PermissionBLL.UpdatePermission(detail.PermissionID, PermissionStates.Disapproved);
+                MessageBox.Show("Disapproved");
+                FillGrid();
+                CleanFilters();
+            }
+            else
+                MessageBox.Show("You are not an admin");
         }
     }
 }

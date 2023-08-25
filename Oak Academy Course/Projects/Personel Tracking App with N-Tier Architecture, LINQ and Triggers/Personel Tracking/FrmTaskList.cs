@@ -31,12 +31,27 @@ namespace Personel_Tracking
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            ChangeToTaskForm();
+            if (UserStatic.isAdmin)
+                ChangeToTaskForm();
+            else
+                MessageBox.Show("You are not an admin");
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            ChangeToTaskForm();
+            if (detail.TaskID == 0)
+                MessageBox.Show("Please select a task from the table");
+            else
+            {
+                FrmTask frm = new FrmTask();
+                frm.isUpdate = true;
+                frm.detail = detail;
+                this.Hide();
+                frm.ShowDialog();
+                this.Visible = true;
+                FillGrid();
+                CleanFilters();
+            }
         }
 
         void ChangeToTaskForm()
@@ -70,6 +85,7 @@ namespace Personel_Tracking
         }
 
         TaskDTO dto = new TaskDTO();
+        TaskDetailDTO detail = new TaskDetailDTO();
         private void FrmTaskList_Load(object sender, EventArgs e)
         {
             FillGrid();
@@ -149,6 +165,50 @@ namespace Personel_Tracking
         private void btnClean_Click(object sender, EventArgs e)
         {
             CleanFilters();
+        }
+
+        private void dataGridView1_RowEnter(object sender, DataGridViewCellEventArgs e)
+        {
+            detail.Title = dataGridView1.Rows[e.RowIndex].Cells[0].Value.ToString();
+            detail.UserNo = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[1].Value);
+            detail.Name = dataGridView1.Rows[e.RowIndex].Cells[2].Value.ToString();
+            detail.Surname = dataGridView1.Rows[e.RowIndex].Cells[3].Value.ToString();
+            detail.TaskStartDate = Convert.ToDateTime(dataGridView1.Rows[e.RowIndex].Cells[4].Value);
+            detail.TaskDeliveryDate = Convert.ToDateTime(dataGridView1.Rows[e.RowIndex].Cells[5].Value);
+            detail.TaskID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[11].Value);
+            detail.EmployeeID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[12].Value);
+            detail.Content = dataGridView1.Rows[e.RowIndex].Cells[13].Value.ToString();
+            detail.TaskStateID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[14].Value);
+        }
+
+        private void btnApprove_Click(object sender, EventArgs e)
+        {
+            if (UserStatic.isAdmin)
+            {
+                TaskBLL.UpdateTask(detail.TaskID, TaskStates.Approved);
+                MessageBox.Show("Approved");
+                FillGrid();
+                CleanFilters();
+            }
+            else
+                MessageBox.Show("Only admins can approve tasks");
+
+        }
+
+        private void btnDelivered_Click(object sender, EventArgs e)
+        {
+            if (!UserStatic.isAdmin || UserStatic.isAdmin)
+            {
+                if (UserStatic.EmployeeID == detail.EmployeeID || UserStatic.isAdmin)
+                {
+                    TaskBLL.UpdateTaskNonAdmin(detail.TaskID, TaskStates.Delivered);
+                    MessageBox.Show("Delivered");
+                    FillGrid();
+                    CleanFilters();
+                }
+                else
+                    MessageBox.Show("This task was not given to you, select your task on the table");
+            }
         }
     }
 }

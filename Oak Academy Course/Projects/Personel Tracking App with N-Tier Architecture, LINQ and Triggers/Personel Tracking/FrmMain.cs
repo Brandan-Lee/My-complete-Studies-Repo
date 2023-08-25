@@ -40,10 +40,19 @@ namespace Personel_Tracking
 
         private void btnSalary_Click(object sender, EventArgs e)
         {
-            FrmSalaryList frm = new FrmSalaryList();
-            this.Hide();
-            frm.ShowDialog();
-            this.Visible = true;
+            if (UserStatic.isAdmin)
+            {
+                FrmSalaryList frm = new FrmSalaryList();
+                this.Hide();
+                frm.ShowDialog();
+                this.Visible = true;
+            }
+            else
+            {
+                btnSalary.Enabled = false;
+                MessageBox.Show("You are not an admin");
+            }
+
         }
 
         private void btnPermission_Click(object sender, EventArgs e)

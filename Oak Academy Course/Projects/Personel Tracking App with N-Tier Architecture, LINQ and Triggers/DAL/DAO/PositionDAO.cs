@@ -57,5 +57,22 @@ namespace DAL.DAO
 				throw ex;
 			}
         }
+
+        public static void UpdatePosition(POSITION position)
+        {
+			try
+			{
+				POSITION ps = db.POSITIONs.First(x => x.ID == position.ID);
+
+				ps.PositionName = position.PositionName;
+				ps.DepartmentID = position.DepartmentID;
+
+				db.SubmitChanges();
+			}
+			catch (Exception ex)
+			{
+				throw ex;
+			}
+        }
     }
 }
