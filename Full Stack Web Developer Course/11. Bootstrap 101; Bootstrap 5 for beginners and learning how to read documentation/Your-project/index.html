@@ -1,0 +1,464 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Geeks React</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- Custom Style Sheet  -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <!-- This is the navbar brand -->
+        <a class="navbar-brand" href="#">
+          <img src="https://geeks-react.netlify.app/static/media/logo.e22c846d87ff5a1252df471397badc6d.svg" alt="Brand">
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- This is all the links of the navbar -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- Browse -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-menu-link" role="button" data-bs-toggle="dropdown" aria-expanded="false">Browse
+              </a>
+              <!-- Browse Dropdown Menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbar-dropdown-menu-link">
+                <!-- Web Development Submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle  nav-link" href="#">Web Development</a>
+                  <!-- Web Development Dropdown Menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Bootstrap</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">GraphQl</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Gatsby</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Grunt</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Svelte</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Meteor</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">HTML5</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Angular</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Design Submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle  nav-link" href="#">Design</a>
+                  <!-- Design Dropdown Menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Graphic Design</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Illustrator</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">UX / UI Design</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Figma Design</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Adobe XD</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Sketch</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Icon Design</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Photoshop</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Rest of the dropdown menu of browse -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Mobile App</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">IT Software</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Marketing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Music</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Life Style</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Business</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Photography</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Landings -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-menu-link" role="button" data-bs-toggle="dropdown" aria-expanded="false">Landings
+              </a>
+              <!-- Landings Dropdown -->
+              <ul class="dropdown-menu" aria-labelledby="navbar-dropdown-menu-link">
+                <!-- Dropdown Header -->
+                <li>
+                    <h6 class="dropdown-header ps-2">Landings</h6>
+                </li>
+                <!-- Rest of the dropdown menu of Landings -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Courses</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Lead Course</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Request Access</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">SaaS</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Pages -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-menu-link" role="button" data-bs-toggle="dropdown" aria-expanded="false">Pages
+              </a>
+              <!-- Pages Dropdown Menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbar-dropdown-menu-link">
+                <!-- Courses Submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle  nav-link" href="#">Courses</a>
+                  <!-- Courses Dropdown Menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Course Single</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Course Single v2</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Course Resume</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Course Category</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Course Checkout</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Course List/Grid</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Add New Course</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Paths Submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle  nav-link" href="#">Paths</a>
+                  <!-- Paths Dropdown Menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Browse Path</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Path Single</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Blog Submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle  nav-link" href="#">Blog</a>
+                  <!-- Blog Dropdown Menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Listing</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Article</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Category</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Sidebar</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Career Submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle  nav-link" href="#">Career</a>
+                  <!-- Career Dropdown Menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Overview</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Listing</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Opening</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Specialty Submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle  nav-link" href="#">Specialty</a>
+                  <!-- Specialty Dropdown Menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Coming Soon</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Error 404</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Maintenance Mode</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Terms & Conditions</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- brs -->
+                <br>
+                <!-- Pages about dropdown item -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <!-- Help Center Submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle  nav-link" href="#">Help Center
+                    <span class="ms-1 badge">New</span>
+                  </a>
+                  <!-- Help Center Dropdown Menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Help Center</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">FAQ's</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Guide</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Guide Single</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Support</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Rest of Pages Dropdown Menu -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Compare Plan</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </li>
+            <!-- Accounts -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbar-dropdown-menu-link" role="button" data-bs-toggle="dropdown" aria-expanded="false">Accounts
+              </a>
+              <!-- Accounts Dropdown Menu -->
+              <ul class="dropdown-menu" aria-labelledby="navbar-dropdown-menu-link">
+                <!-- Accounts Header -->
+                <li>
+                  <h6 class="dropdown-header ps-2">Accounts</h6>
+                </li>
+                <!-- Instructor Submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle  nav-link" href="#">Instructor</a>
+                  <!-- Instructor Dropdown Menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <h6 class="dropdown-header ps-2 custom-dropdown-header">Instructor</h6>
+                    </li>
+                    <li>
+                      <p class="dropdown-text text-wrap mb-0 ms-2 ">Instructor dashboard for managing courses and earning.</p>
+                    </li>
+                    <!-- Br -->
+                    <br>
+                    <!-- Rest of the instructor dropdown -->
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Dashboard</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Profile</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">My Courses</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Orders</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Reviews</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Students</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Payouts</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Earning</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Students Submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle  nav-link" href="#">Students</a>
+                  <!-- Instructor Dropdown Menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <h6 class="dropdown-header ps-2 custom-dropdown-header">Students</h6>
+                    </li>
+                    <li>
+                      <p class="dropdown-text text-wrap mb-0 ms-2 ">Students dashboard to manage your courses and subscriptions.</p>
+                    </li>
+                    <!-- Br -->
+                    <br>
+                    <!-- Rest of the instructor dropdown -->
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Dashboard</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Subscriptions</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Payments</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Billing Info</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Invoice</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Invoice Details</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">Bookmarked</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item nav-link" href="#">My Path</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- Admin Submenu -->
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle  nav-link" href="#">Admin</a>
+                  <!-- Admin Dropdown Menu -->
+                  <ul class="dropdown-menu">
+                    <li>
+                      <h6 class="dropdown-header ps-2 custom-dropdown-header">Master Admin</h6>
+                    </li>
+                    <li>
+                      <p class="dropdown-text text-wrap mb-0 ms-2 ">Master admin dashboard to manage courses, user, site setting, and work with amazing apps.</p>
+                    </li>
+                    <!-- Br -->
+                    <br>
+                    <!-- Rest of the Admin dropdown -->
+                    <li>
+                      <a class="dropdown-item nav-link admin-link" href="#">Go to Dashboard</a>
+                    </li>
+                  </ul>
+                </li>
+                <!-- br -->
+                <br>
+                <!-- Rest of the accounts dropdown -->
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sign In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Forgot Password</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Edit Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Security</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Social Profiles</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Notifications</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Privacy Settings</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Delete Profile</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Linked Accounts</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
