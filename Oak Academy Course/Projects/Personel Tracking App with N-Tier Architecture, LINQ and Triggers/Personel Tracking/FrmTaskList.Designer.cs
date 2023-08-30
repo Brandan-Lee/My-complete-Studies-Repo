@@ -57,7 +57,6 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
-            this.btnDelivered = new System.Windows.Forms.Button();
             this.btnApprove = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
@@ -334,7 +333,6 @@
             this.panel2.Controls.Add(this.btnClose);
             this.panel2.Controls.Add(this.btnDelete);
             this.panel2.Controls.Add(this.btnUpdate);
-            this.panel2.Controls.Add(this.btnDelivered);
             this.panel2.Controls.Add(this.btnApprove);
             this.panel2.Controls.Add(this.btnAdd);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Bottom;
@@ -346,7 +344,7 @@
             // btnClose
             // 
             this.btnClose.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClose.Location = new System.Drawing.Point(625, 15);
+            this.btnClose.Location = new System.Drawing.Point(576, 15);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(96, 56);
             this.btnClose.TabIndex = 3;
@@ -357,7 +355,7 @@
             // btnDelete
             // 
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(523, 15);
+            this.btnDelete.Location = new System.Drawing.Point(474, 15);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(96, 56);
             this.btnDelete.TabIndex = 2;
@@ -368,7 +366,7 @@
             // btnUpdate
             // 
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(417, 15);
+            this.btnUpdate.Location = new System.Drawing.Point(368, 15);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(96, 56);
             this.btnUpdate.TabIndex = 1;
@@ -376,21 +374,10 @@
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // btnDelivered
-            // 
-            this.btnDelivered.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelivered.Location = new System.Drawing.Point(83, 15);
-            this.btnDelivered.Name = "btnDelivered";
-            this.btnDelivered.Size = new System.Drawing.Size(110, 56);
-            this.btnDelivered.TabIndex = 0;
-            this.btnDelivered.Text = "Delivered";
-            this.btnDelivered.UseVisualStyleBackColor = true;
-            this.btnDelivered.Click += new System.EventHandler(this.btnDelivered_Click);
-            // 
             // btnApprove
             // 
             this.btnApprove.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnApprove.Location = new System.Drawing.Point(199, 15);
+            this.btnApprove.Location = new System.Drawing.Point(150, 15);
             this.btnApprove.Name = "btnApprove";
             this.btnApprove.Size = new System.Drawing.Size(110, 56);
             this.btnApprove.TabIndex = 0;
@@ -401,7 +388,7 @@
             // btnAdd
             // 
             this.btnAdd.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAdd.Location = new System.Drawing.Point(315, 15);
+            this.btnAdd.Location = new System.Drawing.Point(266, 15);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(96, 56);
             this.btnAdd.TabIndex = 0;
@@ -480,6 +467,5 @@
         private System.Windows.Forms.Button btnClean;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Button btnDelivered;
     }
 }

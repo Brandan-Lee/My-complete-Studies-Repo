@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BLL;
+using DAL.DTO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,10 +26,25 @@ namespace Personel_Tracking
 
         private void btnEmployee_Click(object sender, EventArgs e)
         {
-            FrmEmployeeList frm = new FrmEmployeeList();
-            this.Hide();
-            frm.ShowDialog();
-            this.Visible = true;
+            if (!UserStatic.isAdmin)
+            {
+                EmployeeDTO dto = EmployeeBLL.GetEmployees();
+                EmployeeDetailDTO detail = dto.Employees.First(x => x.EmployeeID == UserStatic.EmployeeID);
+
+                FrmEmployee frm = new FrmEmployee();
+                frm.detail = detail;
+                frm.isUpdate = true;
+                this.Hide();
+                frm.ShowDialog();
+                this.Visible = true;
+            }
+            else
+            {
+                FrmEmployeeList frm = new FrmEmployeeList();
+                this.Hide();
+                frm.ShowDialog();
+                this.Visible = true;
+            }
         }
 
         private void btnTasks_Click(object sender, EventArgs e)
@@ -40,19 +57,10 @@ namespace Personel_Tracking
 
         private void btnSalary_Click(object sender, EventArgs e)
         {
-            if (UserStatic.isAdmin)
-            {
-                FrmSalaryList frm = new FrmSalaryList();
-                this.Hide();
-                frm.ShowDialog();
-                this.Visible = true;
-            }
-            else
-            {
-                btnSalary.Enabled = false;
-                MessageBox.Show("You are not an admin");
-            }
-
+            FrmSalaryList frm = new FrmSalaryList();
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
         }
 
         private void btnPermission_Click(object sender, EventArgs e)
@@ -85,6 +93,19 @@ namespace Personel_Tracking
             this.Hide();
             frm.ShowDialog();
             this.Visible = true;
+        }
+
+        private void FrmMain_Load(object sender, EventArgs e)
+        {
+            if (!UserStatic.isAdmin)
+            {
+                btnDepartment.Visible = false;
+                btnPosition.Visible = false;
+                btnLogout.Location = new Point(151, 152);
+                btnExit.Location = new Point(290, 152);
+                this.Width = 456;
+                this.Height = 332;
+            }
         }
     }
 }

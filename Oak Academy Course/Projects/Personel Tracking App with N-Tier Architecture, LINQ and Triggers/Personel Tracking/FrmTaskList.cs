@@ -68,6 +68,10 @@ namespace Personel_Tracking
         void FillGrid()
         {
             dto = TaskBLL.GetAll();
+
+            if (!UserStatic.isAdmin)
+                dto.Tasks = dto.Tasks.Where(x => x.EmployeeID == UserStatic.EmployeeID).ToList();
+
             dataGridView1.DataSource = dto.Tasks;
 
             //fill comboboxes
@@ -104,6 +108,17 @@ namespace Personel_Tracking
             dataGridView1.Columns[12].Visible = false;
             dataGridView1.Columns[13].Visible = false;
             dataGridView1.Columns[14].Visible = false;
+
+            if (!UserStatic.isAdmin)
+            {
+                btnAdd.Visible = false;
+                btnUpdate.Visible = false;
+                btnDelete.Visible = false;
+                btnApprove.Location = new Point(307, 15);
+                btnClose.Location = new Point(433, 15);
+                pnlForAdmin.Hide();
+                btnApprove.Text = "Delivered";
+            }
         }
 
         private void cmbDepartment_SelectedIndexChanged(object sender, EventArgs e)
@@ -183,32 +198,22 @@ namespace Personel_Tracking
 
         private void btnApprove_Click(object sender, EventArgs e)
         {
-            if (UserStatic.isAdmin)
+            if (UserStatic.isAdmin && detail.TaskStateID == TaskStates.OnEmployee && detail.EmployeeID != UserStatic.EmployeeID)
+                MessageBox.Show("Before approving a task, an employee has to deliver a task");
+            else if (UserStatic.isAdmin && detail.TaskStateID == TaskStates.Approved)
+                MessageBox.Show("This task is already approved");
+            else if (!UserStatic.isAdmin && detail.TaskStateID == TaskStates.Delivered)
+                MessageBox.Show("This task is already delivered");
+            else if (!UserStatic.isAdmin && detail.TaskStateID == TaskStates.Approved)
+                MessageBox.Show("This task is already approved");
+            else
             {
-                TaskBLL.UpdateTask(detail.TaskID, TaskStates.Approved);
-                MessageBox.Show("Approved");
+                TaskBLL.ApproveTask(detail.TaskID, UserStatic.isAdmin);
+                MessageBox.Show("Task was updated");
                 FillGrid();
                 CleanFilters();
             }
-            else
-                MessageBox.Show("Only admins can approve tasks");
 
-        }
-
-        private void btnDelivered_Click(object sender, EventArgs e)
-        {
-            if (!UserStatic.isAdmin || UserStatic.isAdmin)
-            {
-                if (UserStatic.EmployeeID == detail.EmployeeID || UserStatic.isAdmin)
-                {
-                    TaskBLL.UpdateTaskNonAdmin(detail.TaskID, TaskStates.Delivered);
-                    MessageBox.Show("Delivered");
-                    FillGrid();
-                    CleanFilters();
-                }
-                else
-                    MessageBox.Show("This task was not given to you, select your task on the table");
-            }
         }
 
         private void btnDelete_Click(object sender, EventArgs e)

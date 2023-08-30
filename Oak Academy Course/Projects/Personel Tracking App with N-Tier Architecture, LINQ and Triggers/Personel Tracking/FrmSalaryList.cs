@@ -39,7 +39,7 @@ namespace Personel_Tracking
             this.Close();
         }
 
-        private void btnAdd_Click(object sender, EventArgs e)
+        private void btnNew_Click(object sender, EventArgs e)
         {
             if (UserStatic.isAdmin)
                 ChangeToSalaryForm();
@@ -85,6 +85,10 @@ namespace Personel_Tracking
         void FillGrid()
         {
             dto = SalaryBLL.GetAll();
+
+            if (!UserStatic.isAdmin)
+                dto.Salaries = dto.Salaries.Where(x => x.EmployeeID == UserStatic.EmployeeID).ToList();
+
             dataGridView1.DataSource = dto.Salaries;
 
             //fill comboboxes
@@ -129,6 +133,15 @@ namespace Personel_Tracking
             dataGridView1.Columns[11].HeaderText = "Salary";
             dataGridView1.Columns[12].Visible = false;
             dataGridView1.Columns[13].Visible = false;
+
+            if (!UserStatic.isAdmin)
+            {
+                pnlForAdmin.Hide();
+                btnNew.Hide();
+                btnUpdate.Hide();
+                btnDelete.Hide();
+                btnClose.Location = new Point(330, 15);
+            }
         }
 
         private void cmbDepartment_SelectedIndexChanged(object sender, EventArgs e)
@@ -178,7 +191,7 @@ namespace Personel_Tracking
             dataGridView1.DataSource = list;
         }
 
-        private void btnClean_Click(object sender, EventArgs e)
+        private void btnClear_Click(object sender, EventArgs e)
         {
             CleanFilters();
         }
@@ -195,7 +208,7 @@ namespace Personel_Tracking
             comboFull = true;
             rbMore.Checked = false;
             rbLess.Checked = false;
-            rbEquals.Checked = false;
+            rbEqual.Checked = false;
             cmbMonth.SelectedIndex = -1;
             txtYear.Clear();
             txtSalary.Clear();

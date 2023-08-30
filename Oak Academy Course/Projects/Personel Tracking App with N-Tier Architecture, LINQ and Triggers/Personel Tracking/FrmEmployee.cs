@@ -79,14 +79,6 @@ namespace Personel_Tracking
                     cmbDepartment.Enabled = false;
                     cmbPosition.Enabled = false;
                     txtUserNo.Enabled = false;
-
-                    if (UserStatic.EmployeeID != detail.EmployeeID)
-                    {
-                        txtPassword.Enabled = false;
-                        txtPassword.UseSystemPasswordChar = true;
-                    }
-                    else if (UserStatic.EmployeeID == detail.EmployeeID)
-                        txtPassword.Enabled = true;
                 }
             }
         }

@@ -22,6 +22,27 @@ namespace DAL.DAO
             }
         }
 
+        public static void ApproveTask(int taskID, bool isAdmin)
+        {
+            try
+            {
+                TASK task = db.TASKs.First(x => x.ID == taskID);
+
+                if (isAdmin)
+                    task.TaskState = TaskStates.Approved;
+                else
+                    task.TaskState = TaskStates.Delivered;
+
+                task.TaskDeliveryDate = DateTime.Today;
+
+                db.SubmitChanges();
+            }
+            catch (Exception ex) 
+            {
+                throw ex;
+            }
+        }
+
         public static void DeleteTask(int taskID)
         {
             try
@@ -112,35 +133,6 @@ namespace DAL.DAO
                 ts.TaskState = task.TaskState;
                 ts.EmployeeID = task.EmployeeID;
 
-                db.SubmitChanges();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-
-        public static void UpdateTask(int taskID, int approved)
-        {
-            try
-            {
-                TASK ts = db.TASKs.First(x => x.ID == taskID);
-                ts.TaskState = approved;
-                db.SubmitChanges();
-            }
-            catch (Exception ex)
-            {
-                throw ex;
-            }
-        }
-
-        public static void UpdateTaskNonAdmin(int taskID, int delivered)
-        {
-            try
-            {
-                TASK ts = db.TASKs.First(x => x.ID == taskID);
-                ts.TaskState = delivered;
-                ts.TaskDeliveryDate = DateTime.Now;
                 db.SubmitChanges();
             }
             catch (Exception ex)

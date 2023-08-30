@@ -29,56 +29,22 @@ namespace Personel_Tracking
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            if (UserStatic.isAdmin)
-                ChangeToEmployeeForm();
-            else
-                MessageBox.Show("You are not an admin");
+            ChangeToEmployeeForm();
         }
 
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            if (!UserStatic.isAdmin)
-            {
-                if (UserStatic.EmployeeID == detail.EmployeeID)
-                {
-                    if (detail.EmployeeID == 0)
-                        MessageBox.Show("Please select yourself on the table");
-                    else
-                    {
-                        FrmEmployee frm = new FrmEmployee();
+            FrmEmployee frm = new FrmEmployee();
 
-                        frm.isUpdate = true;
-                        frm.detail = detail;
+            frm.isUpdate = true;
+            frm.detail = detail;
 
-                        this.Hide();
-                        frm.ShowDialog();
-                        this.Visible = true;
-                        FillGrid();
-                        CleanFilters();
-                    }
-                }
-                else
-                    MessageBox.Show("Please select your profile from the table");
-            }
-            else if (UserStatic.isAdmin)
-            {
-                if (detail.EmployeeID == 0)
-                    MessageBox.Show("Please select yourself on the table");
-                else
-                {
-                    FrmEmployee frm = new FrmEmployee();
-
-                    frm.isUpdate = true;
-                    frm.detail = detail;
-
-                    this.Hide();
-                    frm.ShowDialog();
-                    this.Visible = true;
-                    FillGrid();
-                    CleanFilters();
-                }
-            }
+            this.Hide();
+            frm.ShowDialog();
+            this.Visible = true;
+            FillGrid();
+            CleanFilters();
         }
 
         private void ChangeToEmployeeForm()
@@ -213,20 +179,15 @@ namespace Personel_Tracking
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (UserStatic.isAdmin)
-            {
-                DialogResult result = MessageBox.Show("Are you sure you want to delete this employee", "Warning!", MessageBoxButtons.YesNo);
+            DialogResult result = MessageBox.Show("Are you sure you want to delete this employee", "Warning!", MessageBoxButtons.YesNo);
 
-                if (result == DialogResult.Yes)
-                {
-                    EmployeeBLL.DeleteEmployee(detail.EmployeeID);
-                    MessageBox.Show("Employee was deleted");
-                    FillGrid();
-                    CleanFilters();
-                }
+            if (result == DialogResult.Yes)
+            {
+                EmployeeBLL.DeleteEmployee(detail.EmployeeID);
+                MessageBox.Show("Employee was deleted");
+                FillGrid();
+                CleanFilters();
             }
-            else
-                MessageBox.Show("You are not an admin");
         }
     }
 }

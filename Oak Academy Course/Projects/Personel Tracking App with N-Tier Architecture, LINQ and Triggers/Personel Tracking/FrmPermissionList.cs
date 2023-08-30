@@ -42,24 +42,21 @@ namespace Personel_Tracking
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            if (UserStatic.isAdmin)
-            {
-                if (detail.PermissionID == 0)
-                    MessageBox.Show("Please select a permission from the table");
-                else
-                {
-                    FrmPermission frm = new FrmPermission();
-                    frm.isUpdate = true;
-                    frm.detail = detail;
-                    this.Hide();
-                    frm.ShowDialog();
-                    this.Visible = true;
-                    FillGrid();
-                    CleanFilters();
-                }
-            }
+            if (detail.PermissionID == 0)
+                MessageBox.Show("Please select a permission from the table");
+            else if (detail.State == PermissionStates.Approved || detail.State == PermissionStates.Disapproved)
+                MessageBox.Show("You can not update any approved or disapproved permission");
             else
-                MessageBox.Show("You are not an admin");
+            {
+                FrmPermission frm = new FrmPermission();
+                frm.isUpdate = true;
+                frm.detail = detail;
+                this.Hide();
+                frm.ShowDialog();
+                this.Visible = true;
+                FillGrid();
+                CleanFilters();
+            }
         }
 
         void ChangeToPermissionForm()
@@ -76,6 +73,10 @@ namespace Personel_Tracking
         void FillGrid()
         {
             dto = PermissionBLL.GetAll();
+
+            if (!UserStatic.isAdmin)
+                dto.Permissions = dto.Permissions.Where(x => x.EmployeeID == UserStatic.EmployeeID).ToList();
+
             dataGridView1.DataSource = dto.Permissions;
             //fill comboboxes
             comboFull = false;
@@ -117,6 +118,17 @@ namespace Personel_Tracking
             dataGridView1.Columns[12].Visible = false;
             dataGridView1.Columns[13].Visible = false;
             dataGridView1.Columns[14].Visible = false;
+
+            if (!UserStatic.isAdmin)
+            {
+                pnlForAdmin.Hide();
+                btnApprove.Hide();
+                btnDisapprove.Hide();
+                btnDelete.Hide();
+                btnAdd.Location = new Point(209, 15);
+                btnUpdate.Location = new Point(311, 15);
+                btnClose.Location = new Point(413, 15);
+            }
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
@@ -189,51 +201,36 @@ namespace Personel_Tracking
 
         private void btnApprove_Click(object sender, EventArgs e)
         {
-            if (UserStatic.isAdmin)
-            {
-                PermissionBLL.UpdatePermission(detail.PermissionID, PermissionStates.Approved);
-                MessageBox.Show("Approved");
-                FillGrid();
-                CleanFilters();
-            }
-            else
-                MessageBox.Show("You are not an admin");
+            PermissionBLL.UpdatePermission(detail.PermissionID, PermissionStates.Approved);
+            MessageBox.Show("Approved");
+            FillGrid();
+            CleanFilters();
         }
 
         private void btnDisapprove_Click(object sender, EventArgs e)
         {
-            if (UserStatic.isAdmin)
-            {
-                PermissionBLL.UpdatePermission(detail.PermissionID, PermissionStates.Disapproved);
-                MessageBox.Show("Disapproved");
-                FillGrid();
-                CleanFilters();
-            }
-            else
-                MessageBox.Show("You are not an admin");
+            PermissionBLL.UpdatePermission(detail.PermissionID, PermissionStates.Disapproved);
+            MessageBox.Show("Disapproved");
+            FillGrid();
+            CleanFilters();
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (UserStatic.isAdmin)
-            {
-                DialogResult result = MessageBox.Show("Are you sure you want to delete this permission", "Warning!", MessageBoxButtons.YesNo);
+            DialogResult result = MessageBox.Show("Are you sure you want to delete this permission", "Warning!", MessageBoxButtons.YesNo);
 
-                if (result == DialogResult.Yes)
+            if (result == DialogResult.Yes)
+            {
+                if (detail.State == PermissionStates.Approved || detail.State == PermissionStates.Disapproved)
+                    MessageBox.Show("You cannot delete approved or disapproved permissions");
+                else
                 {
-                    if (detail.State == PermissionStates.Approved || detail.State == PermissionStates.Disapproved)
-                        MessageBox.Show("You cannot delete approved or disapproved permissions");
-                    else
-                    {
-                        PermissionBLL.DeletePermission(detail.PermissionID);
-                        MessageBox.Show("Permission was deleted");
-                        FillGrid();
-                        CleanFilters();
-                    }
+                    PermissionBLL.DeletePermission(detail.PermissionID);
+                    MessageBox.Show("Permission was deleted");
+                    FillGrid();
+                    CleanFilters();
                 }
             }
-            else
-                MessageBox.Show("You are not an admin");
         }
     }
 }
