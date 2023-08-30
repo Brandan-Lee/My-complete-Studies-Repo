@@ -47,6 +47,7 @@
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.btnExportToExcel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -60,6 +61,7 @@
             this.panel1.Controls.Add(this.label4);
             this.panel1.Controls.Add(this.txtSurname);
             this.panel1.Controls.Add(this.txtName);
+            this.panel1.Controls.Add(this.btnExportToExcel);
             this.panel1.Controls.Add(this.btnClean);
             this.panel1.Controls.Add(this.btnSearch);
             this.panel1.Controls.Add(this.txtUserNo);
@@ -256,6 +258,17 @@
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
+            // btnExportToExcel
+            // 
+            this.btnExportToExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportToExcel.Location = new System.Drawing.Point(382, 105);
+            this.btnExportToExcel.Name = "btnExportToExcel";
+            this.btnExportToExcel.Size = new System.Drawing.Size(146, 31);
+            this.btnExportToExcel.TabIndex = 6;
+            this.btnExportToExcel.Text = "Export to Excel";
+            this.btnExportToExcel.UseVisualStyleBackColor = true;
+            this.btnExportToExcel.Click += new System.EventHandler(this.btnExportToExcel_Click);
+            // 
             // FrmEmployeeList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -297,5 +310,6 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button btnClean;
+        private System.Windows.Forms.Button btnExportToExcel;
     }
 }

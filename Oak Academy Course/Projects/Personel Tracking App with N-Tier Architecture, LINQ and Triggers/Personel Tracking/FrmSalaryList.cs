@@ -246,5 +246,10 @@ namespace Personel_Tracking
             else
                 MessageBox.Show("You are not an admin");
         }
+
+        private void btnExcel_Click(object sender, EventArgs e)
+        {
+            ExportToExcel.ExcelExport(dataGridView1);
+        }
     }
 }

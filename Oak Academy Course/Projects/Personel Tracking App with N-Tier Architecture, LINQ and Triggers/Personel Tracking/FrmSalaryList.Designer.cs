@@ -30,6 +30,7 @@
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.btnExcel = new System.Windows.Forms.Button();
             this.btnClear = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -59,7 +60,7 @@
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnNew = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.txtExcel = new System.Windows.Forms.Button();
+            this.btnExportToExcel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -80,7 +81,8 @@
             // 
             // panel3
             // 
-            this.panel3.Controls.Add(this.txtExcel);
+            this.panel3.Controls.Add(this.btnExportToExcel);
+            this.panel3.Controls.Add(this.btnExcel);
             this.panel3.Controls.Add(this.btnClear);
             this.panel3.Controls.Add(this.btnSearch);
             this.panel3.Controls.Add(this.groupBox1);
@@ -95,6 +97,17 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(493, 178);
             this.panel3.TabIndex = 1;
+            // 
+            // btnExcel
+            // 
+            this.btnExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnExcel.Location = new System.Drawing.Point(321, 120);
+            this.btnExcel.Name = "btnExcel";
+            this.btnExcel.Size = new System.Drawing.Size(147, 38);
+            this.btnExcel.TabIndex = 31;
+            this.btnExcel.Text = "Export to Excel";
+            this.btnExcel.UseVisualStyleBackColor = true;
+            this.btnExcel.Click += new System.EventHandler(this.btnExcel_Click);
             // 
             // btnClear
             // 
@@ -374,7 +387,7 @@
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
-            // btnAdd
+            // btnNew
             // 
             this.btnNew.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnNew.Location = new System.Drawing.Point(89, 20);
@@ -397,15 +410,15 @@
             this.dataGridView1.TabIndex = 2;
             this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
             // 
-            // txtExcel
+            // btnExportToExcel
             // 
-            this.txtExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.txtExcel.Location = new System.Drawing.Point(321, 120);
-            this.txtExcel.Name = "txtExcel";
-            this.txtExcel.Size = new System.Drawing.Size(147, 38);
-            this.txtExcel.TabIndex = 31;
-            this.txtExcel.Text = "Export to Excel";
-            this.txtExcel.UseVisualStyleBackColor = true;
+            this.btnExportToExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportToExcel.Location = new System.Drawing.Point(173, 74);
+            this.btnExportToExcel.Name = "btnExportToExcel";
+            this.btnExportToExcel.Size = new System.Drawing.Size(146, 31);
+            this.btnExportToExcel.TabIndex = 32;
+            this.btnExportToExcel.Text = "Export to Excel";
+            this.btnExportToExcel.UseVisualStyleBackColor = true;
             // 
             // FrmSalaryList
             // 
@@ -465,6 +478,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnSearch;
-        private System.Windows.Forms.Button txtExcel;
+        private System.Windows.Forms.Button btnExcel;
+        private System.Windows.Forms.Button btnExportToExcel;
     }
 }

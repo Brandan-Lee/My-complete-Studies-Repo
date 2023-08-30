@@ -63,6 +63,7 @@
             this.btnApprove = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnExportToExcel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -78,11 +79,12 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(794, 217);
+            this.panel1.Size = new System.Drawing.Size(794, 232);
             this.panel1.TabIndex = 0;
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.btnExportToExcel);
             this.panel3.Controls.Add(this.btnClean);
             this.panel3.Controls.Add(this.cmbTaskState);
             this.panel3.Controls.Add(this.btnSearch);
@@ -98,7 +100,7 @@
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel3.Location = new System.Drawing.Point(334, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(460, 217);
+            this.panel3.Size = new System.Drawing.Size(460, 232);
             this.panel3.TabIndex = 1;
             // 
             // btnClean
@@ -116,7 +118,7 @@
             // 
             this.cmbTaskState.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbTaskState.FormattingEnabled = true;
-            this.cmbTaskState.Location = new System.Drawing.Point(138, 166);
+            this.cmbTaskState.Location = new System.Drawing.Point(129, 152);
             this.cmbTaskState.Name = "cmbTaskState";
             this.cmbTaskState.Size = new System.Drawing.Size(142, 28);
             this.cmbTaskState.TabIndex = 3;
@@ -169,7 +171,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(18, 174);
+            this.label10.Location = new System.Drawing.Point(9, 160);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(53, 20);
             this.label10.TabIndex = 21;
@@ -178,7 +180,7 @@
             // dpEnd
             // 
             this.dpEnd.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dpEnd.Location = new System.Drawing.Point(138, 95);
+            this.dpEnd.Location = new System.Drawing.Point(129, 81);
             this.dpEnd.Name = "dpEnd";
             this.dpEnd.Size = new System.Drawing.Size(141, 20);
             this.dpEnd.TabIndex = 1;
@@ -186,7 +188,7 @@
             // dpStart
             // 
             this.dpStart.CalendarFont = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dpStart.Location = new System.Drawing.Point(138, 59);
+            this.dpStart.Location = new System.Drawing.Point(129, 45);
             this.dpStart.Name = "dpStart";
             this.dpStart.Size = new System.Drawing.Size(141, 20);
             this.dpStart.TabIndex = 0;
@@ -195,7 +197,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(15, 96);
+            this.label7.Location = new System.Drawing.Point(6, 82);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(57, 20);
             this.label7.TabIndex = 18;
@@ -205,7 +207,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(15, 60);
+            this.label9.Location = new System.Drawing.Point(6, 46);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(49, 20);
             this.label9.TabIndex = 19;
@@ -215,7 +217,7 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(15, 23);
+            this.label6.Location = new System.Drawing.Point(6, 9);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(140, 20);
             this.label6.TabIndex = 17;
@@ -224,7 +226,7 @@
             // txtDayAmount
             // 
             this.txtDayAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDayAmount.Location = new System.Drawing.Point(138, 125);
+            this.txtDayAmount.Location = new System.Drawing.Point(129, 111);
             this.txtDayAmount.Name = "txtDayAmount";
             this.txtDayAmount.Size = new System.Drawing.Size(141, 26);
             this.txtDayAmount.TabIndex = 2;
@@ -234,7 +236,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(15, 132);
+            this.label8.Location = new System.Drawing.Point(6, 118);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(107, 20);
             this.label8.TabIndex = 19;
@@ -255,7 +257,7 @@
             this.pnlForAdmin.Dock = System.Windows.Forms.DockStyle.Left;
             this.pnlForAdmin.Location = new System.Drawing.Point(0, 0);
             this.pnlForAdmin.Name = "pnlForAdmin";
-            this.pnlForAdmin.Size = new System.Drawing.Size(334, 217);
+            this.pnlForAdmin.Size = new System.Drawing.Size(334, 232);
             this.pnlForAdmin.TabIndex = 0;
             // 
             // cmbPosition
@@ -436,12 +438,23 @@
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 217);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 232);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(794, 301);
+            this.dataGridView1.Size = new System.Drawing.Size(794, 286);
             this.dataGridView1.TabIndex = 5;
             this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
+            // 
+            // btnExportToExcel
+            // 
+            this.btnExportToExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportToExcel.Location = new System.Drawing.Point(124, 195);
+            this.btnExportToExcel.Name = "btnExportToExcel";
+            this.btnExportToExcel.Size = new System.Drawing.Size(146, 31);
+            this.btnExportToExcel.TabIndex = 22;
+            this.btnExportToExcel.Text = "Export to Excel";
+            this.btnExportToExcel.UseVisualStyleBackColor = true;
+            this.btnExportToExcel.Click += new System.EventHandler(this.btnExportToExcel_Click);
             // 
             // FrmPermissionList
             // 
@@ -505,5 +518,6 @@
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.ComboBox cmbTaskState;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button btnExportToExcel;
     }
 }

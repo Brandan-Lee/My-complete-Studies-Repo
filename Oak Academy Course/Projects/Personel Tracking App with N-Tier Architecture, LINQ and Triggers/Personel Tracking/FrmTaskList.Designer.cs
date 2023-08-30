@@ -60,6 +60,7 @@
             this.btnApprove = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.btnExportToExcel = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -80,6 +81,7 @@
             // 
             // panel3
             // 
+            this.panel3.Controls.Add(this.btnExportToExcel);
             this.panel3.Controls.Add(this.btnClean);
             this.panel3.Controls.Add(this.btnSearch);
             this.panel3.Controls.Add(this.cmbTaskState);
@@ -408,6 +410,17 @@
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
             // 
+            // btnExportToExcel
+            // 
+            this.btnExportToExcel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExportToExcel.Location = new System.Drawing.Point(22, 154);
+            this.btnExportToExcel.Name = "btnExportToExcel";
+            this.btnExportToExcel.Size = new System.Drawing.Size(146, 43);
+            this.btnExportToExcel.TabIndex = 15;
+            this.btnExportToExcel.Text = "Export to Excel";
+            this.btnExportToExcel.UseVisualStyleBackColor = true;
+            this.btnExportToExcel.Click += new System.EventHandler(this.btnExportToExcel_Click);
+            // 
             // FrmTaskList
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -467,5 +480,6 @@
         private System.Windows.Forms.Button btnClean;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Button btnExportToExcel;
     }
 }

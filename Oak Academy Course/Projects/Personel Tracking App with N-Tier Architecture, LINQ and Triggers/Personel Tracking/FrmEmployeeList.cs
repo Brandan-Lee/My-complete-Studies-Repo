@@ -189,5 +189,10 @@ namespace Personel_Tracking
                 CleanFilters();
             }
         }
+
+        private void btnExportToExcel_Click(object sender, EventArgs e)
+        {
+            ExportToExcel.ExcelExport(dataGridView1);
+        }
     }
 }

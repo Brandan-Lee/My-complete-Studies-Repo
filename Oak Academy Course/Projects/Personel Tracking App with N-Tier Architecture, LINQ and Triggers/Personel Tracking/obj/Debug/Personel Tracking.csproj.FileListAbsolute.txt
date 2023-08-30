@@ -58,3 +58,4 @@ E:\Github Projects\My-complete-Studies-Repo\Oak Academy Course\Projects\Personel
 E:\Github Projects\My-complete-Studies-Repo\Oak Academy Course\Projects\Personel Tracking App with N-Tier Architecture, LINQ and Triggers\Personel Tracking\obj\Debug\Personel Tracking.csproj.CopyComplete
 E:\Github Projects\My-complete-Studies-Repo\Oak Academy Course\Projects\Personel Tracking App with N-Tier Architecture, LINQ and Triggers\Personel Tracking\obj\Debug\Personel Tracking.exe
 E:\Github Projects\My-complete-Studies-Repo\Oak Academy Course\Projects\Personel Tracking App with N-Tier Architecture, LINQ and Triggers\Personel Tracking\obj\Debug\Personel Tracking.pdb
+E:\Github Projects\My-complete-Studies-Repo\Oak Academy Course\Projects\Personel Tracking App with N-Tier Architecture, LINQ and Triggers\Personel Tracking\obj\Debug\Personel Tracking.csproj.ResolveComReference.cache
