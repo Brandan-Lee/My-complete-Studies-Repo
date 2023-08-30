@@ -90,5 +90,22 @@ namespace Personel_Tracking
             detail.DepartmentID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[4].Value);
             detail.OldDepartmentID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[4].Value);
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (UserStatic.isAdmin)
+            {
+                DialogResult result = MessageBox.Show("Are you sure you want to delete this position", "Warning!", MessageBoxButtons.YesNo);
+
+                if (result == DialogResult.Yes)
+                {
+                    PositionBLL.DeletePosition(detail.ID);
+                    MessageBox.Show("Position was deleted");
+                    FillGrid();
+                }
+            }
+            else
+                MessageBox.Show("You are not an admin");
+        }
     }
 }

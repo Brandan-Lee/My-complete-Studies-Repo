@@ -15,6 +15,11 @@ namespace BLL
             DepartmentDAO.AddDepartment(department);
         }
 
+        public static void DeleteDepartment(int ID)
+        {
+            DepartmentDAO.DeleteDepartment(ID);
+        }
+
         public static List<DEPARTMENT> GetDepartments()
         {
             return DepartmentDAO.GetDepartments();

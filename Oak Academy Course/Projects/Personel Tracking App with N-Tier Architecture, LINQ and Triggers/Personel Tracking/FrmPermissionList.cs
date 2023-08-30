@@ -212,5 +212,28 @@ namespace Personel_Tracking
             else
                 MessageBox.Show("You are not an admin");
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (UserStatic.isAdmin)
+            {
+                DialogResult result = MessageBox.Show("Are you sure you want to delete this permission", "Warning!", MessageBoxButtons.YesNo);
+
+                if (result == DialogResult.Yes)
+                {
+                    if (detail.State == PermissionStates.Approved || detail.State == PermissionStates.Disapproved)
+                        MessageBox.Show("You cannot delete approved or disapproved permissions");
+                    else
+                    {
+                        PermissionBLL.DeletePermission(detail.PermissionID);
+                        MessageBox.Show("Permission was deleted");
+                        FillGrid();
+                        CleanFilters();
+                    }
+                }
+            }
+            else
+                MessageBox.Show("You are not an admin");
+        }
     }
 }

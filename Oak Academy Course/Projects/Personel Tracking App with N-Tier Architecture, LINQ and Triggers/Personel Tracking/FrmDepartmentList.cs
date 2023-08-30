@@ -84,5 +84,23 @@ namespace Personel_Tracking
             detail.ID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[0].Value);
             detail.DepartmentName = dataGridView1.Rows[e.RowIndex].Cells[1].Value.ToString();
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (UserStatic.isAdmin)
+            {
+                DialogResult result = MessageBox.Show("Are you sure you want to delete this department", "Warning!", MessageBoxButtons.YesNo);
+
+                if (result == DialogResult.Yes)
+                {
+                    DepartmentBLL.DeleteDepartment(detail.ID);
+                    MessageBox.Show("Department was deleted");
+                    list = DepartmentBLL.GetDepartments();
+                    dataGridView1.DataSource = list;
+                }
+            }
+            else
+                MessageBox.Show("You are not an admin");
+        }
     }
 }

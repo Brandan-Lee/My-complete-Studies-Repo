@@ -210,5 +210,23 @@ namespace Personel_Tracking
                     MessageBox.Show("This task was not given to you, select your task on the table");
             }
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (UserStatic.isAdmin)
+            {
+                DialogResult result = MessageBox.Show("Are you sure you want to delete this task", "Warning!", MessageBoxButtons.YesNo);
+
+                if (result == DialogResult.Yes)
+                {
+                    TaskBLL.DeleteTask(detail.TaskID);
+                    MessageBox.Show("Task was deleted");
+                    FillGrid();
+                    CleanFilters();
+                }
+            }
+            else
+                MessageBox.Show("You are not an admin");
+        }
     }
 }

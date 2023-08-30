@@ -57,10 +57,10 @@
             this.btnClose = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
             this.btnUpdate = new System.Windows.Forms.Button();
+            this.btnDelivered = new System.Windows.Forms.Button();
             this.btnApprove = new System.Windows.Forms.Button();
             this.btnAdd = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.btnDelivered = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -363,6 +363,7 @@
             this.btnDelete.TabIndex = 2;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = true;
+            this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
             // 
             // btnUpdate
             // 
@@ -374,6 +375,17 @@
             this.btnUpdate.Text = "Update";
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
+            // 
+            // btnDelivered
+            // 
+            this.btnDelivered.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDelivered.Location = new System.Drawing.Point(83, 15);
+            this.btnDelivered.Name = "btnDelivered";
+            this.btnDelivered.Size = new System.Drawing.Size(110, 56);
+            this.btnDelivered.TabIndex = 0;
+            this.btnDelivered.Text = "Delivered";
+            this.btnDelivered.UseVisualStyleBackColor = true;
+            this.btnDelivered.Click += new System.EventHandler(this.btnDelivered_Click);
             // 
             // btnApprove
             // 
@@ -403,21 +415,11 @@
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dataGridView1.Location = new System.Drawing.Point(0, 212);
+            this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(794, 324);
             this.dataGridView1.TabIndex = 3;
             this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
-            // 
-            // btnDelivered
-            // 
-            this.btnDelivered.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelivered.Location = new System.Drawing.Point(83, 15);
-            this.btnDelivered.Name = "btnDelivered";
-            this.btnDelivered.Size = new System.Drawing.Size(110, 56);
-            this.btnDelivered.TabIndex = 0;
-            this.btnDelivered.Text = "Delivered";
-            this.btnDelivered.UseVisualStyleBackColor = true;
-            this.btnDelivered.Click += new System.EventHandler(this.btnDelivered_Click);
             // 
             // FrmTaskList
             // 

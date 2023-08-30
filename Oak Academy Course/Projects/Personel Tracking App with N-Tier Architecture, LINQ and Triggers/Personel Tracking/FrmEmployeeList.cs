@@ -213,7 +213,19 @@ namespace Personel_Tracking
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (!UserStatic.isAdmin)
+            if (UserStatic.isAdmin)
+            {
+                DialogResult result = MessageBox.Show("Are you sure you want to delete this employee", "Warning!", MessageBoxButtons.YesNo);
+
+                if (result == DialogResult.Yes)
+                {
+                    EmployeeBLL.DeleteEmployee(detail.EmployeeID);
+                    MessageBox.Show("Employee was deleted");
+                    FillGrid();
+                    CleanFilters();
+                }
+            }
+            else
                 MessageBox.Show("You are not an admin");
         }
     }

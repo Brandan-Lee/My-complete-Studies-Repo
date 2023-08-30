@@ -215,5 +215,23 @@ namespace Personel_Tracking
             detail.OldSalary = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[11].Value);
             detail.SalaryID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[12].Value);
         }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            if (UserStatic.isAdmin)
+            {
+                DialogResult result = MessageBox.Show("Are you sure you want to delete this salary", "Warning!", MessageBoxButtons.YesNo);
+
+                if (result == DialogResult.Yes)
+                {
+                    SalaryBLL.DeleteSalary(detail.SalaryID);
+                    MessageBox.Show("Salary was deleted");
+                    FillGrid();
+                    CleanFilters();
+                }
+            }
+            else
+                MessageBox.Show("You are not an admin");
+        }
     }
 }

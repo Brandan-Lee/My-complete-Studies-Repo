@@ -22,6 +22,20 @@ namespace DAL.DAO
 			}
         }
 
+        public static void DeletePosition(int ID)
+        {
+			try
+			{
+				POSITION ps = db.POSITIONs.First(x => x.ID == ID);
+				db.POSITIONs.DeleteOnSubmit(ps);
+				db.SubmitChanges();
+			}
+			catch (Exception ex)
+			{
+				throw ex;
+			}
+        }
+
         public static List<PositionDTO> GetPositions()
         {
 			try
