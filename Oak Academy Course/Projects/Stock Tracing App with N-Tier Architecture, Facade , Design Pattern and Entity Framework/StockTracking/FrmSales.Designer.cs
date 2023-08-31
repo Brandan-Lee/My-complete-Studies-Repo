@@ -188,6 +188,7 @@
             this.gridCustomer.ReadOnly = true;
             this.gridCustomer.Size = new System.Drawing.Size(409, 199);
             this.gridCustomer.TabIndex = 1;
+            this.gridCustomer.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridCustomer_RowEnter);
             // 
             // panel3
             // 
@@ -206,6 +207,7 @@
             this.txtCustomerSearch.Name = "txtCustomerSearch";
             this.txtCustomerSearch.Size = new System.Drawing.Size(139, 26);
             this.txtCustomerSearch.TabIndex = 0;
+            this.txtCustomerSearch.TextChanged += new System.EventHandler(this.txtCustomerSearch_TextChanged);
             // 
             // label7
             // 
@@ -238,6 +240,7 @@
             this.gridProduct.Name = "gridProduct";
             this.gridProduct.Size = new System.Drawing.Size(409, 143);
             this.gridProduct.TabIndex = 1;
+            this.gridProduct.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridProduct_RowEnter);
             // 
             // panel2
             // 
@@ -257,6 +260,7 @@
             this.cmbCategory.Name = "cmbCategory";
             this.cmbCategory.Size = new System.Drawing.Size(137, 28);
             this.cmbCategory.TabIndex = 0;
+            this.cmbCategory.SelectedIndexChanged += new System.EventHandler(this.cmbCategory_SelectedIndexChanged);
             // 
             // label6
             // 
@@ -288,6 +292,7 @@
             this.btnSave.TabIndex = 1;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // FrmSales
             // 
@@ -310,6 +315,7 @@
             this.Name = "FrmSales";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sales";
+            this.Load += new System.EventHandler(this.FrmSales_Load);
             this.panel1.ResumeLayout(false);
             this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gridCustomer)).EndInit();
