@@ -31,16 +31,42 @@ namespace StockTracking
                 MessageBox.Show("Customer name is empty");
             else
             {
-                CustomerDetailDTO customer = new CustomerDetailDTO();
-                customer.CustomerName = txtCustomerName.Text;
-
-                if (bll.Insert(customer))
+                if (!isUpdate)
                 {
-                    MessageBox.Show("Customer was added");
-                    txtCustomerName.Clear();
-                    customer = new CustomerDetailDTO();
+                    CustomerDetailDTO customer = new CustomerDetailDTO();
+                    customer.CustomerName = txtCustomerName.Text;
+
+                    if (bll.Insert(customer))
+                    {
+                        MessageBox.Show("Customer was added");
+                        txtCustomerName.Clear();
+                        customer = new CustomerDetailDTO();
+                    }
+                }
+                else if (isUpdate)
+                {
+                    if (detail.CustomerName == txtCustomerName.Text)
+                        MessageBox.Show("There are no changes");
+                    else
+                    {
+                        detail.CustomerName = txtCustomerName.Text;
+                        
+                        if (bll.Update(detail))
+                        {
+                            MessageBox.Show("Customer was updated");
+                            this.Close();
+                        }
+                    }
                 }
             }
+        }
+
+        public CustomerDetailDTO detail = new CustomerDetailDTO();
+        public bool isUpdate = false;
+        private void FrmCustomer_Load(object sender, EventArgs e)
+        {
+            if (isUpdate)
+                txtCustomerName.Text = detail.CustomerName;
         }
     }
 }

@@ -79,7 +79,7 @@ namespace StockTracking
             detail.StockAmount = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[2].Value);
             detail.Price = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[3].Value);
             txtPrice.Text = detail.Price.ToString();
-            detail.ID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[4].Value);
+            detail.ProductID = Convert.ToInt32(dataGridView1.Rows[e.RowIndex].Cells[4].Value);
         }
 
         private void btnSave_Click(object sender, EventArgs e)

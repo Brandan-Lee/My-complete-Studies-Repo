@@ -61,7 +61,7 @@ namespace StockTracking.DAL.DAO
                     dto.CategoryName = item.categoryName;
                     dto.StockAmount = item.stockAmount;
                     dto.Price = item.price;
-                    dto.ID = item.productID;
+                    dto.ProductID = item.productID;
                     dto.CategoryID = item.categoryID;
 
                     product.Add(dto);
@@ -82,11 +82,15 @@ namespace StockTracking.DAL.DAO
                 PRODUCT product = db.PRODUCTs.First(x => x.ID == entity.ID);
 
                 if (entity.CategoryID == 0)
-                {
                     product.StockAmount = entity.StockAmount;
-                    db.SaveChanges();
-                }
+                else
+                {
+                    product.ProductName = entity.ProductName;
+                    product.Price = entity.Price;
+                    product.CategoryID = entity.CategoryID;
+                }    
 
+                db.SaveChanges();
                 return true;
             }
             catch (Exception ex)

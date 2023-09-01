@@ -12,7 +12,7 @@ namespace StockTracking.DAL.DTO
         public string CategoryName { get; set; }
         public int StockAmount { get; set; }
         public int Price { get; set; }
-        public int ID { get; set; }
+        public int ProductID { get; set; }
         public int CategoryID { get; set; }
     }
 }

@@ -47,7 +47,7 @@ namespace StockTracking.BLL
         {
             PRODUCT product = new PRODUCT();
 
-            product.ID = entity.ID;
+            product.ID = entity.ProductID;
             product.Price = entity.Price;
             product.ProductName = entity.ProductName;
             product.StockAmount = entity.StockAmount;
