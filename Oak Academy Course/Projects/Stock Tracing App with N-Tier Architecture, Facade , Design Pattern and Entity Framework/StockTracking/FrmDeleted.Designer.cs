@@ -58,6 +58,7 @@
             this.cmbDeletedData.Name = "cmbDeletedData";
             this.cmbDeletedData.Size = new System.Drawing.Size(137, 28);
             this.cmbDeletedData.TabIndex = 0;
+            this.cmbDeletedData.SelectedIndexChanged += new System.EventHandler(this.cmbDeletedData_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -99,6 +100,7 @@
             this.btnGetBack.TabIndex = 0;
             this.btnGetBack.Text = "Get Back";
             this.btnGetBack.UseVisualStyleBackColor = true;
+            this.btnGetBack.Click += new System.EventHandler(this.btnGetBack_Click);
             // 
             // dataGridView1
             // 
@@ -110,6 +112,7 @@
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.Size = new System.Drawing.Size(719, 242);
             this.dataGridView1.TabIndex = 1;
+            this.dataGridView1.RowEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_RowEnter);
             // 
             // FrmDeleted
             // 
@@ -122,6 +125,7 @@
             this.Name = "FrmDeleted";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Deleted";
+            this.Load += new System.EventHandler(this.FrmDeleted_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);

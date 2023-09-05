@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using StockTracking.DAL.DTO;
 using StockTracking.DAL;
 using StockTracking.DAL.DAO;
+using System.Runtime.InteropServices;
 
 namespace StockTracking.DAL.DAO
 {
@@ -13,12 +14,38 @@ namespace StockTracking.DAL.DAO
     {
         public bool Delete(CUSTOMER entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                CUSTOMER customer = db.CUSTOMERs.First(x => x.ID == entity.ID);
+
+                customer.isDeleted = true;
+                customer.DeletedDate = DateTime.Today;
+
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public bool GetBack(int ID)
         {
-            throw new NotImplementedException();
+            try
+            {
+                CUSTOMER customer = db.CUSTOMERs.First(x => x.ID == ID);
+
+                customer.isDeleted = false;
+                customer.DeletedDate = null;
+
+                db.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         public bool Insert(CUSTOMER entity)
@@ -40,7 +67,32 @@ namespace StockTracking.DAL.DAO
             try
             {
                 List<CustomerDetailDTO> customers = new List<CustomerDetailDTO>();
-                var list = db.CUSTOMERs;
+                var list = db.CUSTOMERs.Where(x => x.isDeleted == false).ToList();
+
+                foreach (var item in list)
+                {
+                    CustomerDetailDTO dto = new CustomerDetailDTO();
+
+                    dto.ID = item.ID;
+                    dto.CustomerName = item.CustomerName;
+
+                    customers.Add(dto);
+                }
+
+                return customers;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        public List<CustomerDetailDTO> Select(bool isDeleted)
+        {
+            try
+            {
+                List<CustomerDetailDTO> customers = new List<CustomerDetailDTO>();
+                var list = db.CUSTOMERs.Where(x => x.isDeleted == isDeleted).ToList();
 
                 foreach (var item in list)
                 {
